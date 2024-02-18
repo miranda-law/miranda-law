@@ -1,8 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
+import readingListData from './readingListData';
 
 function App() {
+  console.log(readingListData);
   return (
+    <div>Hello !</div>
+  );
+  /* return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -19,7 +24,7 @@ function App() {
         </a>
       </header>
     </div>
-  );
+  ); */
 }
 
 export default App;
