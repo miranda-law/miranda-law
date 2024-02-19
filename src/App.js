@@ -1,30 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
-import readingListData from './readingListData';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import readingListData from './data/readingListData';
+import Layout from './pages/Layout';
+import Home from './pages/Home';
+import Projects from './pages/Projects'
+import Reads from './pages/Reads'
 
 function App() {
-  console.log(readingListData);
   return (
-    <div>Hello !</div>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/miranda-law' element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path="projects" element={<Projects />} />
+          <Route path="reads" element={<Reads />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
-  /* return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  ); */
 }
 
 export default App;
