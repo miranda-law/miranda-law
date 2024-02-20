@@ -1,15 +1,17 @@
 {
   "files": {
     "main.css": "/miranda-law/static/css/main.878630e1.css",
-    "main.js": "/miranda-law/static/js/main.d32f824a.js",
+    "main.js": "/miranda-law/static/js/main.6b2232b0.js",
     "static/js/453.815a8f22.chunk.js": "/miranda-law/static/js/453.815a8f22.chunk.js",
+    "static/media/mdzs.jpg": "/miranda-law/static/media/mdzs.43b3c482d6eedabb9f36.jpg",
+    "static/media/beScript.jpg": "/miranda-law/static/media/beScript.1c6c07cb74bd1e573977.jpg",
     "index.html": "/miranda-law/index.html",
     "main.878630e1.css.map": "/miranda-law/static/css/main.878630e1.css.map",
-    "main.d32f824a.js.map": "/miranda-law/static/js/main.d32f824a.js.map",
+    "main.6b2232b0.js.map": "/miranda-law/static/js/main.6b2232b0.js.map",
     "453.815a8f22.chunk.js.map": "/miranda-law/static/js/453.815a8f22.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.878630e1.css",
-    "static/js/main.d32f824a.js"
+    "static/js/main.6b2232b0.js"
   ]
 }
