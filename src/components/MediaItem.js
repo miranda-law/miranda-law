@@ -1,6 +1,8 @@
 import React from "react";
 import Card from 'react-bootstrap/Card';
 import ListGroup from 'react-bootstrap/ListGroup';
+import Badge from 'react-bootstrap/Badge';
+import { useRef, useEffect } from "react";
 import allImages from "../data/readings/images/allImages";
 
 
@@ -8,24 +10,73 @@ function MediaItem(props) {
     const cardStyle = {
         width: "18rem",
         padding: "0",
-        margin: "1rem"
-
+        marginLeft: "0.75rem"
     }
     const imgStyle = {
         width: "18rem",
         height: "10rem",
         objectFit: "cover"
     }
+    const tagStyle = {
+        whiteSpace: "nowrap",
+        contain: "paint",
+        overflowX: "auto"
+    }
+    function Status() {
+        const stat = props.item.status;
+        if(stat === "ongoing") {
+            return (
+                <Badge pill bg="primary">
+                    ongoing
+                </Badge>
+            );
+        } else if(stat === "complete") {
+            return (
+                <Badge pill bg="success">
+                    complete
+                </Badge>
+            );
+        } else {
+            return(
+                <Badge pill bg="secondary">
+                    hiatus
+                </Badge>)
+            ;
+        }
+    }
 
+    function useHorizontalScroll() {
+        const elRef = useRef();
+        useEffect(() => {
+            const el = elRef.current;
+            if (el) {
+                const onWheel = e => {
+                    if (e.deltaY == 0) return;
+                        e.preventDefault();
+                    el.scrollTo({
+                        left: el.scrollLeft + e.deltaY,
+                        behavior: "smooth"
+                    });
+                };
+                el.addEventListener("wheel", onWheel);
+                return () => el.removeEventListener("wheel", onWheel);
+            }
+        }, []);
+        return elRef;
+    }
     return (
-        <Card className="mediaItem" border="dark" style={cardStyle}>
+        <Card className="mediaItem" data-bs-theme="dark" border="secondary" style={cardStyle}>
             <Card.Img variant="top" src={allImages[props.item.imgLink]} style={imgStyle} />
-            <Card.Body>
-                <Card.Title>{props.item.title}</Card.Title>
+            <Card.Body style={{padding:"0.5rem"}}>
+                <Card.Title style={{margin:"0"}}>{props.item.title}</Card.Title>
             </Card.Body>
             <ListGroup variant="flush">
-                <ListGroup.Item>{props.item.status}</ListGroup.Item>
-                <ListGroup.Item>{props.item.tags}</ListGroup.Item>
+                <ListGroup.Item>
+                    Status: <Status />
+                </ListGroup.Item>
+                <ListGroup.Item ref={useHorizontalScroll()} style={tagStyle}>
+                    Tags: {props.item.tags.join(", ")}
+                </ListGroup.Item>
             </ListGroup>
         </Card>
     );
