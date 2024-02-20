@@ -1,0 +1,30 @@
+[
+    {
+        "title": "Mo Dao Zu Shi",
+        "medium": "manhua",
+        "altNames": [
+            "Grandmaster of Demonic Cultivation",
+            "Master of Diabolism",
+            "魔道祖师"],
+        "author": "Mo Xiang Tong Xiu (墨香铜臭)",
+        "status": "complete",
+        "tags": ["bl", "xianxia", "romance", "mystery", "comedy", "mature", "reincarnation"],
+        "officialEn": "https://sevenseasentertainment.com/series/grandmaster-of-demonic-cultivation-mo-dao-zu-shi-the-comic-manhua/",
+        "imgLink": "mdzs.jpg",
+        "comments": "one of my favorite series of all time, great even without the bl, tightknit story and well written characters"
+    },
+    {
+        "title": "Till the End of the Moon",
+        "medium": "manhua",
+        "altNames": [
+            "Black Moonlight Holds the BE Script",
+            "长月烬明",
+            "Chángyuè Jìn Míng"],
+        "author": "Teng Luo Wei Zhi (藤萝为枝)",
+        "status": "ongoing",
+        "tags": ["xianxia", "romance", "fantasy", "time travel", "historical"],
+        "officialEn": "",
+        "imgLink": "beScript.jpg",
+        "comments": "super well rated Cdrama"
+    }
+]
