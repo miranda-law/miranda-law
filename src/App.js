@@ -1,10 +1,9 @@
 import './App.css';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import readingListData from './data/readingListData';
 import Layout from './pages/Layout';
 import Home from './pages/Home';
-import Projects from './pages/Projects'
-import Reads from './pages/Reads'
+import Projects from './pages/Projects';
+import Reads from './pages/Reads';
 
 function App() {
   return (
