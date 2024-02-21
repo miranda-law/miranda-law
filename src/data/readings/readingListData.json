@@ -1,4 +1,16 @@
-[
+[   {
+    "title": "Firefly Wedding",
+    "medium": "manga",
+    "altNames": [
+        "Hotaru no Yomeiri",
+        "Firefly Marriage"],
+    "author": ["Tachibana Oreco"],
+    "status": "ongoing",
+    "tags": ["historical", "romance", "yandere", "obsessive"],
+    "officialEn": "https://comikey.com/comics/firefly-wedding-manga/565/",
+    "imgLink": "fireflywedding.jpg",
+    "comments": "best yandere ml bordering cute and crazy :)))"
+    },
     {
         "title": "Mo Dao Zu Shi",
         "medium": "manhua",
@@ -6,7 +18,7 @@
             "Grandmaster of Demonic Cultivation",
             "Master of Diabolism",
             "魔道祖师"],
-        "author": "Mo Xiang Tong Xiu (墨香铜臭)",
+        "author": ["Mo Xiang Tong Xiu (墨香铜臭)"],
         "status": "complete",
         "tags": ["bl", "xianxia", "romance", "mystery", "comedy", "mature", "reincarnation"],
         "officialEn": "https://sevenseasentertainment.com/series/grandmaster-of-demonic-cultivation-mo-dao-zu-shi-the-comic-manhua/",
@@ -20,11 +32,75 @@
             "Black Moonlight Holds the BE Script",
             "长月烬明",
             "Chángyuè Jìn Míng"],
-        "author": "Teng Luo Wei Zhi (藤萝为枝)",
+        "author": ["Teng Luo Wei Zhi (藤萝为枝)"],
         "status": "ongoing",
         "tags": ["xianxia", "romance", "fantasy", "time travel", "historical"],
-        "officialEn": "",
+        "officialEn": "#",
         "imgLink": "beScript.jpg",
-        "comments": "super well rated Cdrama"
+        "comments": "super well rated Cdrama, promising plot"
+    },
+    {
+        "title": "Here U Are",
+        "medium": "manhua",
+        "altNames": [],
+        "author": ["DJun"],
+        "status": "complete",
+        "tags": ["bl", "romance", "school life"],
+        "officialEn": "https://www.webtoons.com/en/romance/here-u-are/list?title_no=5834",
+        "imgLink": "hereUAre.jpg",
+        "comments": "one of the better bl stories, mc is hilarious and grounded, sequel to author's previous work 光响"
+    },
+    {
+        "title": "Guang Xiang",
+        "medium": "manhua",
+        "altNames": ["光响"],
+        "author": ["DJun"],
+        "status": "complete",
+        "tags": ["bl", "romance", "school life"],
+        "officialEn": "#",
+        "imgLink": "guangxiang.jpg",
+        "comments": "prequel to Here U Are"
+    },
+    {
+        "title": "Chasing the Sun",
+        "medium": "manhua",
+        "altNames": [
+            "Chao Hua Xi Shi",
+            "朝花惜时"],
+        "author": [
+            "Zuo Xiao Ling",
+            "Ke Xiao Sha"],
+        "status": "complete",
+        "tags": ["romance", "school life", "shoujo", "comedy"],
+        "officialEn": "#",
+        "imgLink": "chasingthesun.jpg",
+        "comments": "very cliche enemies to lovers school life romance"
+    },
+    {
+        "title": "Pirouette into My Heart",
+        "medium": "manhua",
+        "altNames": [
+            "Salad Days",
+            "经久",
+            "Jing Jiu"],
+        "author": ["ShuiBian Jing", "Tang LiuZang (artist)"],
+        "status": "complete",
+        "tags": ["bl", "romance", "drama", "sports", "modern"],
+        "officialEn": "https://tapas.io/series/pirouette-into-my-heart/",
+        "imgLink": "saladdays.jpg",
+        "comments": "ballet dancer x boxer, cute story"
+    },
+    {
+        "title": "Thirty Years Old",
+        "medium": "manhua",
+        "altNames": [
+            "The Secret Tales of a 30-Year-Old Gay Bachelor",
+            "30岁男子物语"],
+        "author": ["S-monkey"],
+        "status": "complete",
+        "tags": ["bl", "romance", "office", "comedy", "modern", "age gap"],
+        "officialEn": "https://comics.inkr.com/title/1763-the-story-of-a-30-year-old-gay-bachelor?utm_source=mgd",
+        "imgLink": "thirtyyearsold.jpg",
+        "comments": "funny (small)age gap bl story"
     }
 ]
