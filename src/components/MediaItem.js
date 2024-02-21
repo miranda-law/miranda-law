@@ -2,16 +2,19 @@ import React from "react";
 import Card from 'react-bootstrap/Card';
 import ListGroup from 'react-bootstrap/ListGroup';
 import Badge from 'react-bootstrap/Badge';
-import { useRef, useEffect } from "react";
+import Modal from 'react-bootstrap/Modal';
+import { useRef, useEffect, useState } from "react";
 import allImages from "../data/readings/images/allImages";
 
 
 function MediaItem(props) {
+    const [lgShow, setLgShow] = useState(false);
     const cardStyle = {
         width: "18rem",
         padding: "0",
         marginLeft: "0.75rem",
-        marginBottom: "0.75rem"
+        marginBottom: "0.75rem",
+        cursor: "pointer"
     }
     const imgStyle = {
         width: "18rem",
@@ -52,7 +55,7 @@ function MediaItem(props) {
             const el = elRef.current;
             if (el) {
                 const onWheel = e => {
-                    if (e.deltaY == 0) return;
+                    if (e.deltaY === 0) return;
                         e.preventDefault();
                     el.scrollTo({
                         left: el.scrollLeft + e.deltaY,
@@ -66,7 +69,8 @@ function MediaItem(props) {
         return elRef;
     }
     return (
-        <Card className="mediaItem" data-bs-theme="dark" border="secondary" style={cardStyle}>
+        <>
+        <Card className="mediaItem" data-bs-theme="dark" border="secondary" style={cardStyle} onClick={() => setLgShow(true)}>
             <Card.Img variant="top" src={allImages[props.item.imgLink]} style={imgStyle} />
             <Card.Body style={{padding:"0.5rem"}}>
                 <Card.Title style={{margin:"0"}}>{props.item.title}</Card.Title>
@@ -80,6 +84,26 @@ function MediaItem(props) {
                 </ListGroup.Item>
             </ListGroup>
         </Card>
+        <Modal
+            size="lg"
+            show={lgShow}
+            onHide={() => setLgShow(false)}
+            aria-labelledby="media-item-desc"
+            
+        >
+            <Modal.Header closeButton>
+            <Modal.Title id="media-item-desc">
+                {props.item.title}
+            </Modal.Title>
+            </Modal.Header>
+            <Modal.Body>
+                Alternate names: {props.item.altNames.join("\n")} <br></br>
+                Author: {props.item.author.join("\n")} <br></br>
+                Official Link English <br></br>
+                Comments: {props.item.comments} <br></br>
+            </Modal.Body>
+        </Modal>
+        </>
     );
 }
 
