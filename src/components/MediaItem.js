@@ -10,7 +10,8 @@ function MediaItem(props) {
     const cardStyle = {
         width: "18rem",
         padding: "0",
-        marginLeft: "0.75rem"
+        marginLeft: "0.75rem",
+        marginBottom: "0.75rem"
     }
     const imgStyle = {
         width: "18rem",
