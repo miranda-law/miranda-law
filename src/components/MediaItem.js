@@ -1,20 +1,25 @@
 import React from "react";
 import Card from 'react-bootstrap/Card';
+import Modal from 'react-bootstrap/Modal';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 import ListGroup from 'react-bootstrap/ListGroup';
 import Badge from 'react-bootstrap/Badge';
-import Modal from 'react-bootstrap/Modal';
 import { useRef, useEffect, useState } from "react";
 import allImages from "../data/readings/images/allImages";
+import './MediaItem.css';
 
 
 function MediaItem(props) {
+    // handle popup onclick
     const [lgShow, setLgShow] = useState(false);
+    // css
     const cardStyle = {
         width: "18rem",
         padding: "0",
         marginLeft: "0.75rem",
         marginBottom: "0.75rem",
-        cursor: "pointer"
+        cursor: "pointer",
     }
     const imgStyle = {
         width: "18rem",
@@ -26,6 +31,12 @@ function MediaItem(props) {
         contain: "paint",
         overflowX: "auto"
     }
+    const modalStyleBg = {
+        background: `linear-gradient(rgba(0,0,0, 0.7), rgba(0,0,0, 0.7)), url(${allImages[props.item.imgLink]})`,
+        backgroundSize: "cover",
+        backgroundPosition: "center"
+    }
+    // Status returns a Badge component depending on item status
     function Status() {
         const stat = props.item.status;
         if(stat === "ongoing") {
@@ -48,7 +59,7 @@ function MediaItem(props) {
             ;
         }
     }
-
+    /* enables horizontal scroll using mouse scroll wheel */
     function useHorizontalScroll() {
         const elRef = useRef();
         useEffect(() => {
@@ -70,6 +81,7 @@ function MediaItem(props) {
     }
     return (
         <>
+        {/* Card */}
         <Card className="mediaItem" data-bs-theme="dark" border="secondary" style={cardStyle} onClick={() => setLgShow(true)}>
             <Card.Img variant="top" src={allImages[props.item.imgLink]} style={imgStyle} />
             <Card.Body style={{padding:"0.5rem"}}>
@@ -84,23 +96,63 @@ function MediaItem(props) {
                 </ListGroup.Item>
             </ListGroup>
         </Card>
+        {/* Card Popup */}
         <Modal
             size="lg"
             show={lgShow}
             onHide={() => setLgShow(false)}
-            aria-labelledby="media-item-desc"
-            
+            aria-labelledby="media-popup"
         >
+            {/* Header and Title */}
             <Modal.Header closeButton>
-            <Modal.Title id="media-item-desc">
-                {props.item.title}
-            </Modal.Title>
+                <Modal.Title id={props.item.title+"-media-popup"}>
+                    {props.item.title}
+                </Modal.Title>
             </Modal.Header>
-            <Modal.Body>
-                Alternate names: {props.item.altNames.join("\n")} <br></br>
-                Author: {props.item.author.join("\n")} <br></br>
-                Official Link English <br></br>
-                Comments: {props.item.comments} <br></br>
+
+            {/* Body content */}
+            <Modal.Body style={modalStyleBg}>
+                {/* alternate names row */}
+                <Row>
+                    <Col xs={6} md={4}>
+                        {"Alternate name(s): "}
+                    </Col>
+                    <Col xs={12} md={8}>
+                        {props.item.altNames.map((item) => {
+                            return <><Row>{item}</Row></>
+                        })}
+                    </Col>
+                </Row>
+                <Row><br /></Row>
+                {/* authors row */}
+                <Row>
+                    <Col xs={6} md={4}>
+                        {"Author(s): "}
+                    </Col>
+                    <Col xs={12} md={8}>
+                        {props.item.author.map((item) => {
+                            return <><Row>{item}</Row></>
+                        })}
+                    </Col>
+                </Row> 
+                <Row><br /></Row>
+                {/* official english link row*/}
+                <Row>
+                    <Col xs={6} md={4}>
+                        {"Official English"}
+                    </Col>
+                </Row> <br />
+                {/* comments row*/}
+                <Row>
+                    <Col xs={6} md={4}>
+                        {"Comments: "}
+                    </Col>
+                </Row>
+                <Row>
+                    <Col>
+                        {props.item.comments}
+                    </Col>
+                </Row> <br />
             </Modal.Body>
         </Modal>
         </>
