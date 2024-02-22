@@ -1,23 +1,26 @@
 {
   "files": {
-    "main.css": "/miranda-law/static/css/main.ef4ea932.css",
-    "main.js": "/miranda-law/static/js/main.74f54ae1.js",
+    "main.css": "/miranda-law/static/css/main.9e27b8d6.css",
+    "main.js": "/miranda-law/static/js/main.0d1656ae.js",
     "static/js/453.df204ee3.chunk.js": "/miranda-law/static/js/453.df204ee3.chunk.js",
     "static/media/mdzs.jpg": "/miranda-law/static/media/mdzs.43b3c482d6eedabb9f36.jpg",
+    "static/media/horimiya.png": "/miranda-law/static/media/horimiya.19f4f11b4ae5e80bd465.png",
+    "static/media/curseofspring.jpg": "/miranda-law/static/media/curseofspring.6f7f7f4641c6dba48ade.jpg",
     "static/media/beScript.jpg": "/miranda-law/static/media/beScript.1c6c07cb74bd1e573977.jpg",
     "static/media/fireflywedding.jpg": "/miranda-law/static/media/fireflywedding.bd00b73f21fe2477fa19.jpg",
+    "static/media/khr.jpg": "/miranda-law/static/media/khr.3e1bd04653ee128922b4.jpg",
     "static/media/chasingthesun.jpg": "/miranda-law/static/media/chasingthesun.e46af121b90e31be3fbb.jpg",
     "static/media/hereUAre.jpg": "/miranda-law/static/media/hereUAre.511cd21e5c7d376afc19.jpg",
     "static/media/guangxiang.jpg": "/miranda-law/static/media/guangxiang.cdefebd26e41f9456f14.jpg",
     "static/media/thirtyyearsold.jpg": "/miranda-law/static/media/thirtyyearsold.d6d03cef7b4bc6e8a856.jpg",
     "static/media/saladdays.jpg": "/miranda-law/static/media/saladdays.9cd2eb80b870d5fcfa6a.jpg",
     "index.html": "/miranda-law/index.html",
-    "main.ef4ea932.css.map": "/miranda-law/static/css/main.ef4ea932.css.map",
-    "main.74f54ae1.js.map": "/miranda-law/static/js/main.74f54ae1.js.map",
+    "main.9e27b8d6.css.map": "/miranda-law/static/css/main.9e27b8d6.css.map",
+    "main.0d1656ae.js.map": "/miranda-law/static/js/main.0d1656ae.js.map",
     "453.df204ee3.chunk.js.map": "/miranda-law/static/js/453.df204ee3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ef4ea932.css",
-    "static/js/main.74f54ae1.js"
+    "static/css/main.9e27b8d6.css",
+    "static/js/main.0d1656ae.js"
   ]
 }
