@@ -5,7 +5,6 @@ ul {
     overflow: hidden;
     background-color: #333;
 }
-  
 li {
     float: left;
 }
@@ -24,4 +23,25 @@ li a {
 
 .right {
     float: right;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: white;
+    padding: 0.75rem 1.65rem;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #111;
+}
+
+#dropdown:hover .dropdown-content {
+    display: block;
 }
