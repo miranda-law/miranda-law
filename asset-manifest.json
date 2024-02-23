@@ -1,26 +1,31 @@
 {
   "files": {
-    "main.css": "/miranda-law/static/css/main.9e27b8d6.css",
-    "main.js": "/miranda-law/static/js/main.0d1656ae.js",
+    "main.css": "/miranda-law/static/css/main.64996453.css",
+    "main.js": "/miranda-law/static/js/main.73002633.js",
     "static/js/453.df204ee3.chunk.js": "/miranda-law/static/js/453.df204ee3.chunk.js",
     "static/media/mdzs.jpg": "/miranda-law/static/media/mdzs.43b3c482d6eedabb9f36.jpg",
+    "static/media/nura.jpg": "/miranda-law/static/media/nura.bbf6f6250a31f486dce0.jpg",
     "static/media/horimiya.png": "/miranda-law/static/media/horimiya.19f4f11b4ae5e80bd465.png",
+    "static/media/maydare.jpg": "/miranda-law/static/media/maydare.dbfd88b55ad996a41908.jpg",
     "static/media/curseofspring.jpg": "/miranda-law/static/media/curseofspring.6f7f7f4641c6dba48ade.jpg",
     "static/media/beScript.jpg": "/miranda-law/static/media/beScript.1c6c07cb74bd1e573977.jpg",
     "static/media/fireflywedding.jpg": "/miranda-law/static/media/fireflywedding.bd00b73f21fe2477fa19.jpg",
     "static/media/khr.jpg": "/miranda-law/static/media/khr.3e1bd04653ee128922b4.jpg",
+    "static/media/spyfamily.jpg": "/miranda-law/static/media/spyfamily.f39b5df0eda5f3ea0422.jpg",
+    "static/media/penelope.jpg": "/miranda-law/static/media/penelope.ae6407b5fa18a49b984e.jpg",
     "static/media/chasingthesun.jpg": "/miranda-law/static/media/chasingthesun.e46af121b90e31be3fbb.jpg",
     "static/media/hereUAre.jpg": "/miranda-law/static/media/hereUAre.511cd21e5c7d376afc19.jpg",
     "static/media/guangxiang.jpg": "/miranda-law/static/media/guangxiang.cdefebd26e41f9456f14.jpg",
+    "static/media/bastard.jpg": "/miranda-law/static/media/bastard.59cc0bef6254fb498dfe.jpg",
     "static/media/thirtyyearsold.jpg": "/miranda-law/static/media/thirtyyearsold.d6d03cef7b4bc6e8a856.jpg",
     "static/media/saladdays.jpg": "/miranda-law/static/media/saladdays.9cd2eb80b870d5fcfa6a.jpg",
     "index.html": "/miranda-law/index.html",
-    "main.9e27b8d6.css.map": "/miranda-law/static/css/main.9e27b8d6.css.map",
-    "main.0d1656ae.js.map": "/miranda-law/static/js/main.0d1656ae.js.map",
+    "main.64996453.css.map": "/miranda-law/static/css/main.64996453.css.map",
+    "main.73002633.js.map": "/miranda-law/static/js/main.73002633.js.map",
     "453.df204ee3.chunk.js.map": "/miranda-law/static/js/453.df204ee3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9e27b8d6.css",
-    "static/js/main.0d1656ae.js"
+    "static/css/main.64996453.css",
+    "static/js/main.73002633.js"
   ]
 }
