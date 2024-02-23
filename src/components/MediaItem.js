@@ -21,6 +21,12 @@ function MediaItem(props) {
         marginBottom: "0.75rem",
         cursor: "pointer",
     }
+    const titleStyle = {
+        margin:"0",
+        whiteSpace: "nowrap",
+        contain: "paint",
+        overflowX: "auto"
+    }
     const imgStyle = {
         width: "18rem",
         height: "10rem",
@@ -85,7 +91,12 @@ function MediaItem(props) {
         <Card className="mediaItem" data-bs-theme="dark" border="secondary" style={cardStyle} onClick={() => setLgShow(true)}>
             <Card.Img variant="top" src={allImages[props.item.imgLink]} style={imgStyle} />
             <Card.Body style={{padding:"0.5rem"}}>
-                <Card.Title style={{margin:"0"}}>{props.item.title}</Card.Title>
+                <Card.Title 
+                    style={titleStyle}
+                    ref={useHorizontalScroll()}
+                >
+                        {props.item.title}
+                </Card.Title>
             </Card.Body>
             <ListGroup variant="flush">
                 <ListGroup.Item>
