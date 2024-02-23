@@ -49,6 +49,71 @@
         "comments": ""
     },
     {
+        "title": "Nura: Rise of the Yokai Clan",
+        "medium": "manga",
+        "altNames": [
+            "Nurarihyon no Mago",
+            "Grandson of Nurarihyon"],
+        "author": ["Hiroshi Shiibashi"],
+        "status": "complete",
+        "tags": ["fantasy", "yokai", "action"],
+        "officialEn": "https://www.viz.com/nura-rise-of-the-yokai-clan",
+        "imgLink": "nura.jpg",
+        "comments": "mc is the heir to a family of yokai"
+    },
+    {
+        "title": "SPY x FAMILY",
+        "medium": "manga",
+        "altNames": [],
+        "author": ["Tatsuya Endo"],
+        "status": "ongoing",
+        "tags": ["comedy", "mystery", "action", "slice of life"],
+        "officialEn": "https://mangaplus.shueisha.co.jp/titles/100056",
+        "imgLink": "spyfamily.jpg",
+        "comments": ""
+    },
+    {
+        "title": "Tales of Reincarnation in Maydare: The World's Worst Witch",
+        "medium": "manga",
+        "altNames": [
+            "Maydare Tensei Monogatari: Kono Sekai de Ichiban Warui Majo",
+            "Meidea Reincarnation Theory: The World’s Worst Witch"],
+        "author": [
+            "Yuuma Midori (author)",
+            "Natsunishi Nana (artist)"],
+        "status": "ongoing",
+        "tags": ["otome isekai", "fantasy", "superpowers", "romance", "nobility", "shoujo", "reincarnation"],
+        "officialEn": "https://global.manga-up.com/manga/66",
+        "imgLink": "maydare.jpg",
+        "comments": ""
+    },
+    {
+        "title": "Villains Are Destined to Die",
+        "medium": "manhwa",
+        "altNames": ["Death is the Only Ending for the Villainess"],
+        "author": [
+            "Gwon Gyeoeul (권겨을) (author)",
+            "SUOL (수월) (artist)"],
+        "status": "ongoing",
+        "tags": ["otome isekai", "romance", "nobility", "shoujo", "villainess"],
+        "officialEn": "https://tapas.io/series/villains-are-destined-to-die/info",
+        "imgLink": "penelope.jpg",
+        "comments": "one of the best otome isekais"
+    },
+    {
+        "title": "Bastard",
+        "medium": "webtoon",
+        "altNames": [],
+        "author": [
+            "Carnby Kim (author)",
+            "Youngchan Hwang (artist)"],
+        "status": "complete",
+        "tags": ["thriller", "mystery", "romance", "drama"],
+        "officialEn": "https://www.webtoons.com/en/thriller/bastard/list?title_no=485",
+        "imgLink": "bastard.jpg",
+        "comments": ""
+    },
+    {
         "title": "Mo Dao Zu Shi",
         "medium": "manhua",
         "altNames": [
