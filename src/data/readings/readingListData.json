@@ -46,7 +46,7 @@
         "tags": ["comedy", "shounen", "action", "superpowers", "school life", "mystery"],
         "officialEn": "",
         "imgLink": "khr.jpg",
-        "comments": ""
+        "comments": "one of the first mangas I've ever read"
     },
     {
         "title": "Nura: Rise of the Yokai Clan",
@@ -86,6 +86,47 @@
         "officialEn": "https://global.manga-up.com/manga/66",
         "imgLink": "maydare.jpg",
         "comments": ""
+    },
+    {
+        "title": "Hello, I Am a Witch, and My Crush Wants Me to Make a Love Potion!",
+        "medium": "manga",
+        "altNames": ["Doumo, Suki na hito ni Horegusuri wo Iraisareta Majo desu"],
+        "author": [
+            "Eiko Mutsuhana (author)",
+            "Kamada (artist)"],
+        "status": "ongoing",
+        "tags": ["fantasy", "romance", "shoujo"],
+        "officialEn": "https://yenpress.com/titles/9781975338640-hi-i-m-a-witch-and-my-crush-wants-me-to-make-a-love-potion-vol-1",
+        "imgLink": "witchlovepotion.jpg",
+        "comments": "cute story with cute girl and her crush"
+    },
+    {
+        "title": "The Beloved Daughter of a Crime Family Was Reincarnated as the Daughter of a Gangster in an Otome Game: Highest-Ranking Villain, That Doting Is Unnecessary!",
+        "medium": "manga",
+        "altNames": [
+            "The Beloved Daughter of a Crime Family Was Reincarnated as the Daughter of a Gangster in an Otome Game. ~ Highest-Ranking Villain, That Doting is Unnecessary! ~",
+            "Akutou Ikka no Mana Musume, Tensei Saki mo Otome Game no Gokudou Reijou deshita: Saijoukyuu Rank no Akuyaku-sama, Sono Dekiai wa Fuyou desu!"],
+        "author": [
+            "Amekawa Touko (author)",
+            "Gotou Sora (artist)"],
+        "status": "ongoing",
+        "tags": ["otome isekai", "romance", "shoujo", "fantasy", "comedy", "nobility", "obsessive"],
+        "officialEn": "#",
+        "imgLink": "daughterotomegangster.png",
+        "comments": ""
+    },
+    {
+        "title": "With One Day Left I'll Break All the Destruction Flags: \"Serves You Right!\" RTA 24 Hour Record",
+        "medium": "manga",
+        "altNames": ["Nokori Ichinichi de Hametsu Flag Zenbu Heshiorimasu: Zamaa RTA Kiroku 24Hr"],
+        "author": [
+            "Fukutome Shun (author)",
+            "Amagi Nozomu (artist)"],
+        "status": "complete",
+        "tags": ["otome isekai", "villainess", "fantasy", "harem", "romance", "revenge", "nobility"],
+        "officialEn": "#",
+        "imgLink": "villainess24hr.jpeg",
+        "comments": "typical Japanese style otome isekai with a twist >:)"
     },
     {
         "title": "Villains Are Destined to Die",
