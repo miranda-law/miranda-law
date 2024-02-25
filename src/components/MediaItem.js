@@ -103,7 +103,9 @@ function MediaItem(props) {
                     Status: <Status />
                 </ListGroup.Item>
                 <ListGroup.Item ref={useHorizontalScroll()} style={tagStyle}>
-                    Tags: {props.item.tags.join(", ")}
+                    {props.item.tags.map((item) => {
+                            return <span className={item.replace(/ /g,'')}>{item}</span>
+                    })}
                 </ListGroup.Item>
             </ListGroup>
         </Card>
