@@ -1,0 +1,62 @@
+span {
+    padding: 0 0.5rem 0.25rem;
+    border-radius: 0.25rem;
+    margin-right: .25rem;
+    font-size: small;
+}
+.complete {
+    background-color: #bee9d9;
+    font-weight: bold;
+}
+.bl {
+    color: #9de2f9;
+    border: 1px solid #9de2f9;
+}
+.comedy{
+    color: #ffca18;
+    border: 1px solid #ffca18;
+}
+.fantasy {
+    color: #ac94df;
+    border: 1px solid #ac94df;
+}
+.historical {
+    color: #b97a56;
+    border: 1px solid #b97a56;
+}
+.mature {
+    color: #ec1c24;
+    border: 1px solid #ec1c24;
+}
+.mystery {
+    color: #c5c5c5;
+    border: 1px solid #c5c5c5;
+}
+.nobility {
+    color: #4169E1;
+    border: 1px solid #4169E1;
+}
+.otomeisekai {
+    color: #fb76a3;
+    border: 1px solid #fb76a3;
+}
+.romance {
+    color: #f9766f;
+    border: 1px solid #f9766f;
+}
+.schoollife{
+    color: #9ecfab;
+    border: 1px solid #9ecfab;
+}
+.shoujo {
+    color: #ffaec8;
+    border: 1px solid #ffaec8;
+}
+.sliceoflife {
+    color: #fdeca6;
+    border: 1px solid #fdeca6;
+}
+.villainess {
+    color: #9b37ff;
+    border: 1px solid #9b37ff;
+}
