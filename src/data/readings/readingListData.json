@@ -46,7 +46,7 @@
         "tags": ["comedy", "shounen", "action", "superpowers", "school life", "mystery"],
         "officialEn": "",
         "imgLink": "khr.jpg",
-        "comments": "one of the first mangas I've ever read"
+        "comments": "This is one of the first mangas I've ever read. The beginning is slice of life, but the action starts with the Vongola Rings arc. ALSO HIBARI AND YAMAMOTO ARE SO FINE"
     },
     {
         "title": "Nura: Rise of the Yokai Clan",
@@ -128,6 +128,241 @@
         "imgLink": "villainess24hr.jpeg",
         "comments": "typical Japanese style otome isekai with a twist >:)"
     },
+    {
+        "title": "Though I Am an Inept Villainess: Tale of the Butterfly-Rat Swap in the Maiden Court",
+        "medium": "manga",
+        "altNames": ["Futsutsukana Akujo de wa Gozaimasu ga"],
+        "author": [
+            "Nakamura Satsuki (author)",
+            "Ohitsuji Ei (artist)"],
+        "status": "ongoing",
+        "tags": ["historical", "villainess", "fantasy", "romance", "body swap"],
+        "officialEn": "https://sevenseasentertainment.com/series/though-i-am-an-inept-villainess-tale-of-the-butterfly-rat-body-swap-in-the-maiden-court-manga/",
+        "imgLink": "butterflyrat.jpg",
+        "comments": ""
+    },
+    {
+        "title": "7th Time Loop: The Villainess Enjoys a Carefree Life Married to Her Worst Enemy!",
+        "medium": "manga",
+        "altNames": [
+            "The Villain Daughter Enjoys Her Seventh Life as a Free-Spirited Bride (Hostage) in a Former Enemy Country",
+            "Loop 7-kai me no Akuyaku Reijou wa, Moto Tekikoku de Jiyuu Kimamana Hanayome (Hitojichi) Seikatsu wo Mankitsu Suru"],
+        "author": [
+            "Amekawa Touko (author)",
+            "Kino Hinoki (artist)"],
+        "status": "ongoing",
+        "tags": ["villainess", "fantasy", "romance", "reincarnation"],
+        "officialEn": "https://sevenseasentertainment.com/series/7th-time-loop-the-villainess-enjoys-a-carefree-life-married-to-her-worst-enemy-manga/",
+        "imgLink": "7thtimeloop.jpg",
+        "comments": ""
+    },
+    {
+        "title": "Even Monsters Like Fairytales",
+        "medium": "manga",
+        "altNames": [],
+        "author": [
+            "Ede Akizawa (author)",
+            "Hajime Kirino (artist)"],
+        "status": "ongoing",
+        "tags": ["otome isekai", "villainess", "romance", "nobility", "mystery", "obsessive"],
+        "officialEn": "https://global.manga-up.com/manga/375",
+        "imgLink": "evenmonsters.jpg",
+        "comments": "unique perspective of an otome isekai where mc isn't the one that gets isekai'd"
+    },
+    {
+        "title": "The Villainess Doesn't Know the Prince's True (Doting) Nature",
+        "medium": "manga",
+        "altNames": [
+            "The Villainess is oblivious to the Prince's True Doting Nature",
+            "Akuyaku Reijou wa Ouji no Honsou (Dekiai) wo Shiranai"],
+        "author": [
+            "Shimotsuki Setsu (author)",
+            "Saiga Suomi (artist)"],
+        "status": "ongoing",
+        "tags": ["otome isekai", "villainess", "nobility", "romance", "fantasy", "obsessive"],
+        "officialEn": "#",
+        "imgLink": "dotingprince.png",
+        "comments": ""
+    },
+    {
+        "title": "The Holy Grail of Eris",
+        "medium": "manga",
+        "altNames": ["Eris no Seihai: Konyaku Haki Sareta Reijou ha, Kitai no Akujo Tasukerareta Daishou Toshite Fukushuu ni Tsuki Awasaremasu"],
+        "author": [
+            "Tokiwa Kujira (author)",
+            "Momoyama Hinase (artist)"],
+        "status": "ongoing",
+        "tags": ["villainess", "supernatural", "mystery", "comedy", "romance"],
+        "officialEn": "https://global.manga-up.com/manga/195",
+        "imgLink": "holygrailoferis.jpg",
+        "comments": ""
+	},
+    {
+        "title": "Yona of the Dawn",
+        "medium": "manga",
+        "altNames": ["Akatsuki no Yona"],
+        "author": ["Mizuho Kusanagi"],
+        "status": "ongoing",
+        "tags": ["fantasy", "comedy", "drama", "harem"],
+        "officialEn": "https://www.viz.com/yona-of-the-dawn",
+        "imgLink": "yona.jpg",
+        "comments": "this series is so good, but it breaks my heart every month"
+	},
+    {
+        "title": "Heavenly Delusion",
+        "medium": "manga",
+        "altNames": ["Tengoku Daimakyo"],
+        "author": ["Masakazu Ishiguro"],
+        "status": "ongoing",
+        "tags": ["action", "mystery", "thriller", "sci-fi", "superpowers","shounen"],
+        "officialEn": "https://denpa.pub/manga/heavenly-delusion-volume-1",
+        "imgLink": "heavenlydelusion.jpg",
+        "comments": ""
+	},
+    {
+        "title": "Hirano and Kagiura",
+        "medium": "manga",
+        "altNames": ["Hirano to Kagiura"],
+        "author": ["Shou Harusono"],
+        "status": "ongoing",
+        "tags": ["bl", "school life", "romance", "slice of life"],
+        "officialEn": "https://yenpress.com/series/hirano-and-kagiura-manga",
+        "imgLink": "hiranoandkagi.jpg",
+        "comments": "super wholesome bl, I'm super in love with how in love Kagi-kun is with Hirano <3"
+	},
+    {
+        "title": "Seven Days",
+        "medium": "manga",
+        "altNames": [],
+        "author": [
+            "Tachibana Venio (author)",
+            "Takarai Rihito (artist)"],
+        "status": "complete",
+        "tags": ["bl", "school life", "romance"],
+        "officialEn": "https://www.ebookrenta.com/renta/sc/frm/item/79446",
+        "imgLink": "sevendays.jpg",
+        "comments": ""
+	},
+    {
+        "title": "Given",
+        "medium": "manga",
+        "altNames": [],
+        "author": ["Natsuki Kizu"],
+        "status": "complete",
+        "tags": ["bl", "music", "school life", "drama", "romance"],
+        "officialEn": "https://www.sublimemanga.com/given",
+        "imgLink": "given.jpg",
+        "comments": ""
+	},
+    {
+        "title": "A Sign of Affection",
+        "medium": "manga",
+        "altNames": [
+            "Yubisaki to Renren",
+            "Love Affection"],
+        "author": ["Morishita Suu"],
+        "status": "ongoing",
+        "tags": ["shoujo", "romance", "school life", "slice of life"],
+        "officialEn": "https://comics.inkr.com/title/1227-a-sign-of-affection?utm_source=mgd",
+        "imgLink": "signofaffection.jpg",
+        "comments": ""
+	},
+    {
+        "title": "My Love Story with Yamada-kun at Lv999",
+        "medium": "manga",
+        "altNames": ["Yamada-kun to Lv999 no Koi wo Suru"],
+        "author": ["Mashiro"],
+        "status": "ongoing",
+        "tags": ["shoujo", "romance", "gaming", "comedy", "modern"],
+        "officialEn": "https://www.mangamo.com/my-love-story-with-yamada-kun-at-lv999",
+        "imgLink": "yamada999.jpg",
+        "comments": "cute and funny love story between a bubbly girl and a pro gamer involving a rpg game + super funny side characters"
+	},
+    {
+        "title": "Heroine’s (Love) Diary",
+        "medium": "manga",
+        "altNames": ["Shujinkou Nikki"],
+        "author": ["Yoshinaga Yuu"],
+        "status": "ongoing",
+        "tags": ["shoujo", "romance", "school life"],
+        "officialEn": "#",
+        "imgLink": "shujinkou-nikki.jpg",
+        "comments": ""
+	},
+    {
+        "title": "How I Met My Soulmate",
+        "medium": "manga",
+        "altNames": [
+            "You are the One I Am Destined to Fall In Love",
+            "Unmei no Hito ni Deau Hanashi"],
+        "author": ["Anashin"],
+        "status": "ongoing",
+        "tags": ["shoujo", "romance", "school life"],
+        "officialEn": "https://kodansha.us/series/how-i-met-my-soulmate",
+        "imgLink": "howimetmysoulmate.jpg",
+        "comments": ""
+	},
+    {
+        "title": "Bakuman",
+        "medium": "manga",
+        "altNames": [],
+        "author": [
+            "Tsugumi Ohba (author)",
+            "Takeshi Obata (artist)"],
+        "status": "complete",
+        "tags": ["shounen", "comedy", "romance", "slice of life"],
+        "officialEn": "https://www.viz.com/bakuman",
+        "imgLink": "bakuman.jpg",
+        "comments": "one of my all time favorite series while in hs"
+	},
+    {
+        "title": "Oshi no Ko",
+        "medium": "manga",
+        "altNames": ["My Star"],
+        "author": [
+            "Akasaka Aka (author)",
+            "Yokoyari Mengo (artist)"],
+        "status": "ongoing",
+        "tags": ["mystery", "reincarnation", "drama", "entertainment industry", "comedy", "romance"],
+        "officialEn": "https://www.viz.com/bakuman",
+        "imgLink": "oshinoko.jpg",
+        "comments": ""
+	},
+    {
+        "title": "Promise Cinderella",
+        "medium": "manga",
+        "altNames": [],
+        "author": ["Tachibana Oreco"],
+        "status": "ongoing",
+        "tags": ["romance", "age gap", "comedy", "drama"],
+        "officialEn": "https://comikey.com/comics/promise-cinderella-manga/41/",
+        "imgLink": "promisecinderella.jpg",
+        "comments": ""
+	},
+    {
+        "title": "Nisekoi",
+        "medium": "manga",
+        "altNames": [
+            "Fake Love", 
+            "False Love"],
+        "author": ["Komi Naoshi"],
+        "status": "complete",
+        "tags": ["harem", "school life", "romance", "comedy", "slice of life"],
+        "officialEn": "https://www.viz.com/nisekoi-false-love",
+        "imgLink": "nisekoi.jpg",
+        "comments": "one of the few harem stories that I actually enjoyed"
+	},
+    {
+        "title": "Kasane",
+        "medium": "manga",
+        "altNames": [],
+        "author": ["Matsuura Daruma"],
+        "status": "complete",
+        "tags": ["supernatural", "entertainment industry", "drama", "tragedy"],
+        "officialEn": "https://comics.inkr.com/title/308-kasane?utm_source=mgd",
+        "imgLink": "kasane.jpg",
+        "comments": "ugly girl with amazing acting skills steals a person’s looks by kissing them with a special lipstick"
+	},
     {
         "title": "Villains Are Destined to Die",
         "medium": "manhwa",
