@@ -1,3 +1,6 @@
+.col-6{
+    font-weight: bold;
+}
 span {
     padding: 0 0.5rem 0.25rem;
     border-radius: 0.25rem;
@@ -7,6 +10,10 @@ span {
 .complete {
     background-color: #bee9d9;
     font-weight: bold;
+}
+.action {
+    color: #f79d4b;
+    border: 1px solid #f79d4b;
 }
 .bl {
     color: #9de2f9;
@@ -36,9 +43,21 @@ span {
     color: #4169E1;
     border: 1px solid #4169E1;
 }
+.obsessive {
+    color: #666666;
+    border: 1px solid #666666;
+}
 .otomeisekai {
     color: #fb76a3;
     border: 1px solid #fb76a3;
+}
+.reincarnation {
+    color: #99ea4f;
+    border: 1px solid #99ea4f;
+}
+.revenge {
+    color: #277e33;
+    border: 1px solid #277e33;
 }
 .romance {
     color: #f9766f;
@@ -52,11 +71,15 @@ span {
     color: #ffaec8;
     border: 1px solid #ffaec8;
 }
+.shounen {
+    color: #6585f5;
+    border: 1px solid #6585f5;
+}
 .sliceoflife {
     color: #fdeca6;
     border: 1px solid #fdeca6;
 }
 .villainess {
-    color: #9b37ff;
-    border: 1px solid #9b37ff;
+    color: #B026FF  ;
+    border: 1px solid #B026FF  ;
 }
