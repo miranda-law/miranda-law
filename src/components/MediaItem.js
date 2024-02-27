@@ -149,6 +149,28 @@ function MediaItem(props) {
                     </Col>
                 </Row> 
                 <Row><br /></Row>
+                {/* Status row */}
+                <Row>
+                    <Col xs={6} md={4}>
+                        {"Status: "}
+                    </Col>
+                    <Col xs={12} md={8}>
+                        <Status />
+                    </Col>
+                </Row>
+                <Row><br /></Row>
+                {/* tags row */}
+                <Row>
+                    <Col xs={6} md={4}>
+                        {"Tags: "}
+                    </Col>
+                    <Col xs={12} md={8}>
+                        {props.item.tags.map((item) => {
+                            return <span className={item.replace(/ /g,'')}>{item}</span>
+                        })}
+                    </Col>
+                </Row>
+                <Row><br /></Row>
                 {/* official english link row*/}
                 <Row>
                     <Col xs={6} md={4}>
