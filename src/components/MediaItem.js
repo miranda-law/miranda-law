@@ -25,7 +25,8 @@ function MediaItem(props) {
         margin:"0",
         whiteSpace: "nowrap",
         contain: "paint",
-        overflowX: "auto"
+        overflowX: "auto",
+        overflowY: "hidden"
     }
     const imgStyle = {
         width: "18rem",
