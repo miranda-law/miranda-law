@@ -26,3 +26,14 @@ input[type="radio"] {
 .form-label {
     font-weight: bold;
 }
+.form-tag-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.checkbox-choice {
+    width: 12rem;
+}
+form {
+    padding-left: 2rem;
+}
