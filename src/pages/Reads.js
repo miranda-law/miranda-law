@@ -129,6 +129,30 @@ class Reads extends React.Component {
                     }
                 }
             })
+        } else if(type === "button") {
+            // remove all tags
+            let tempTags = {};
+            allTags.forEach((item) => {tempTags[item] = false;})
+            // filter by status and set state
+            if(this.state.displayStatus === "all") {
+                this.setState({
+                    mangas: mangaData,
+                    manhwas: manhwaData,
+                    webtoons: webtoonData,
+                    manhuas: manhuaData,
+                    animes: animeData,
+                    displayTags: tempTags
+                })
+            } else {
+                this.setState({
+                    mangas: mangaData.filter(item => item.status === this.state.displayStatus),
+                    manhwas: manhwaData.filter(item => item.status === this.state.displayStatus),
+                    webtoons: webtoonData.filter(item => item.status === this.state.displayStatus),
+                    manhuas: manhuaData.filter(item => item.status === this.state.displayStatus),
+                    animes: animeData.filter(item => item.status === this.state.displayStatus),
+                    displayTags: tempTags
+                })
+            }
         }
 
     }

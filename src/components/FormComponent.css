@@ -37,3 +37,12 @@ input[type="radio"] {
 form {
     padding-left: 2rem;
 }
+#clear-button {
+    margin-left: 2rem;
+    border-radius: 0.5rem;
+    padding: 0 0.5rem;
+    background-color: #6c757d;
+}
+#clear-button:hover {
+    background-color: #5c636a;
+}

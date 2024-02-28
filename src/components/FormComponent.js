@@ -24,10 +24,10 @@ function FormComponent(props) {
                     <Modal.Title>Filter</Modal.Title>
                 </Modal.Header>
                 <Modal.Body className="modal-form-body">
-                    <form>
-                        
+                    <form id="filter-form">
+                        {/* status section */}
                         <label className="form-label" htmlFor="form-status">Status:</label> <br />
-                        
+                        {/* all */}
                         <label className="radio-choice">
                             <input 
                                 type="radio" 
@@ -37,7 +37,7 @@ function FormComponent(props) {
                                 onChange={props.handleChange}
                             /> All
                         </label>
-                    
+                        {/* complete */}
                         <label className="radio-choice">
                             <input 
                                 type="radio" 
@@ -47,7 +47,7 @@ function FormComponent(props) {
                                 onChange={props.handleChange}
                             /> Complete
                         </label>
-                    
+                        {/* ongoing */}
                         <label className="radio-choice">
                             <input 
                                 type="radio" 
@@ -57,7 +57,7 @@ function FormComponent(props) {
                                 onChange={props.handleChange}
                             /> Ongoing
                         </label>
-                    
+                        {/* hiatus */}
                         <label className="radio-choice">
                             <input 
                                 type="radio" 
@@ -67,9 +67,20 @@ function FormComponent(props) {
                                 onChange={props.handleChange}
                             /> Hiatus
                         </label> <br /> <br />
-                        
+                        {/* tags section */}
                         <label className="form-label" htmlFor="form-tags">Tags:</label>
-
+                        {/* clear all tags button */}
+                        <button 
+                            form="filter-form" 
+                            id="clear-button"
+                            type="button"
+                            name="clear-button"
+                            value="clear"
+                            onClick={props.handleChange}
+                        >
+                            Clear Tags
+                        </button>
+                        {/* tags display */}
                         <div className="form-tag-container">
                             {Object.keys(props.item.displayTags).map((item) => {
                                 return (
