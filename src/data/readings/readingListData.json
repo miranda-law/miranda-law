@@ -485,9 +485,122 @@
             "Kim Son (author)",
             "Lee Younggo (artist)"],
         "status": "ongoing",
-        "tags": ["bl", "mature", "drama", "romance"],
+        "tags": ["bl", "mature", "drama", "romance", "modern"],
         "officialEn": "https://www.lezhinus.com/en/comic/loveletlie",
         "imgLink": "loveletlie.jpg",
+        "comments": ""
+    },
+    {
+        "title": "Mad Dog",
+        "medium": "manhwa",
+        "altNames": [],
+        "author": ["Haribo"],
+        "status": "complete",
+        "tags": ["bl", "gangster", "obsessive", "drama", "modern"],
+        "officialEn": "https://www.lezhinus.com/en/comic/mad_dog_en",
+        "imgLink": "maddog.jpg",
+        "comments": ""
+    },
+    {
+        "title": "At the End of the Road",
+        "medium": "manhwa",
+        "altNames": ["What Lies at the End"],
+        "author": ["Haribo"],
+        "status": "complete",
+        "tags": ["bl", "school life", "reincarnation", "obsessive"],
+        "officialEn": "https://www.lezhinus.com/en/comic/attheend",
+        "imgLink": "attheend.jpg",
+        "comments": ""
+    },
+    {
+        "title": "Orange Marmalade",
+        "medium": "manhwa",
+        "altNames": [""],
+        "author": ["Seok-woo"],
+        "status": "complete",
+        "tags": ["romance", "vampire", "school life", "drama"],
+        "officialEn": "https://www.webtoons.com/en/romance/orange-marmalade/list?title_no=97",
+        "imgLink": "orangemarmalade.jpg",
+        "comments": ""
+    },
+    {
+        "title": "I Shall Master This Family",
+        "medium": "manhwa",
+        "altNames": [
+            "I'll be the Matriarch in this Life",
+            "In This Life, I Will Be the Lord"],
+        "author": [
+            "Ant Studio",
+            "Kim Roah (김로아) (author)",
+            "Gammon (artist)"],
+        "status": "ongoing",
+        "tags": ["regression", "fantasy", "romance", "nobility"],
+        "officialEn": "https://www.tappytoon.com/en/book/i-shall-master-this-family",
+        "imgLink": "matriarch.jpg",
+        "comments": ""
+    },
+    {
+        "title": "The Villainess Flips the Script!",
+        "medium": "manhwa",
+        "altNames": [
+            "It's Time to Change the Genre", 
+            "I Will Make an Effort to Change the Genre"],
+        "author": [
+            "KEN (author)",
+            "Garine (artist)"],
+        "status": "ongoing",
+        "tags": ["otome isekai", "villainess", "comedy", "nobility", "romance"],
+        "officialEn": "https://tapas.io/series/the-villainess-flips-the-script/info",
+        "imgLink": "villainessflipsscript.jpg",
+        "comments": ""
+    },
+    {
+        "title": "For Better or For Worse",
+        "medium": "manhwa",
+        "altNames": ["Fortunate or Unfortunate"],
+        "author": [
+            "Noh Hueda (author)",
+            "Eunren (artist)"],
+        "status": "complete",
+        "tags": ["otome isekai", "nobility", "romance", "comedy", "drama"],
+        "officialEn": "https://tapas.io/series/for-better-or-for-worse/info",
+        "imgLink": "forbetter.jpg",
+        "comments": ""
+    },
+    {
+        "title": "Thirsty Thirty",
+        "medium": "manhwa",
+        "altNames": [
+            "Fish's Night", 
+            "Night Fish", 
+            "Thirty: Thirsty"],
+        "author": ["Jung Eun Soo"],
+        "status": "complete",
+        "tags": ["romance", "office", "drama", "modern"],
+        "officialEn": "https://www.lezhinus.com/en/comic/thirstythirty",
+        "imgLink": "thirstythirty.jpg",
+        "comments": ""
+    },
+    {
+        "title": "July Found By Chance",
+        "medium": "manhwa",
+        "altNames": ["A Day Found by Chance"],
+        "author": ["Muryu"],
+        "status": "complete",
+        "tags": ["romance", "school life", "supernatural", "drama"],
+        "officialEn": "#",
+        "imgLink": "julyfoundbychance.jpg",
+        "comments": ""
+    },
+    {
+        "title": "Dazzled By You",
+        "medium": "manhwa",
+        "altNames": ["Dazzlingly Bright"],
+        "author": ["4M"],
+        "status": "complete",
+        "tags": ["romance", "age gap", "slowburn", "modern"],
+        "officialEn": "#",
+        "imgLink": "dazzlinglybright.png",
         "comments": ""
     },
     {
