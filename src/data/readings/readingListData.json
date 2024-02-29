@@ -377,6 +377,120 @@
         "comments": "one of the best otome isekais"
     },
     {
+        "title": "Checkmate",
+        "medium": "manhwa",
+        "altNames": [],
+        "author": ["TAN"],
+        "status": "complete",
+        "tags": ["bl", "drama", "mature", "modern", "obsessive", "romance"],
+        "officialEn": "https://www.lezhinus.com/en/comic/check_mate_19",
+        "imgLink": "checkmate.jpg",
+        "comments": ""
+    },
+    {
+        "title": "Murderous Lewellyn's Candlelit Dinner",
+        "medium": "manhwa",
+        "altNames": ["Murderer Llewellyn's Enchanting Dinner Invitation"],
+        "author": [
+            "Sum Na Gi (author)",
+            "Muk Bu (artist)"],
+        "status": "complete",
+        "tags": ["bl", "mystery", "thriller", "obsessive", "romance"],
+        "officialEn": "https://www.lezhinus.com/en/comic/lewellyn",
+        "imgLink": "lewellyn.jpg",
+        "comments": ""
+    },
+    {
+        "title": "Master Villainess the Invincible!",
+        "medium": "manhwa",
+        "altNames": ["I'm a Martial Art Villainess but I'm the Strongest!"],
+        "author": [
+            "Gabi Nam (가비남) (author)",
+            "Will Bright (윌브라이트) (author)",
+            "Yooani (유아니) (artist)"],
+        "status": "ongoing",
+        "tags": ["wuxia", "otome isekai", "villainess", "historical", "romance", "action"],
+        "officialEn": "https://tapas.io/series/master-villainess-the-invincible/info",
+        "imgLink": "mastervillainess.jpg",
+        "comments": ""
+    },
+    {
+        "title": "Light and Shadow",
+        "medium": "manhwa",
+        "altNames": ["Light & Shadow"],
+        "author": [
+            "Ryu Hyang (author)",
+            "Hee Won (artist)"],
+        "status": "complete",
+        "tags": ["drama", "romance", "nobility", "gender bender"],
+        "officialEn": "https://www.lezhinus.com/en/comic/lightshadow",
+        "imgLink": "lightshadow.jpg",
+        "comments": ""
+    },
+    {
+        "title": "Golden Time",
+        "medium": "manhwa",
+        "altNames": [],
+        "author": [
+            "Ryu Hyang (author)",
+            "Hee Won (artist)"],
+        "status": "complete",
+        "tags": ["drama", "romance", "nobility"],
+        "officialEn": "https://www.lezhinus.com/en/comic/goldentime",
+        "imgLink": "goldentime.jpg",
+        "comments": ""
+    },
+    {
+        "title": "Positively Yours",
+        "medium": "manhwa",
+        "altNames": ["I Have a Baby"],
+        "author": [
+            "Lee Jung (author)",
+            "Kang Ki (artist)"],
+        "status": "complete",
+        "tags": ["romance", "drama", "modern"],
+        "officialEn": "https://tapas.io/series/positively-yours/info",
+        "imgLink": "positivelyyours.jpg",
+        "comments": ""
+    },
+    {
+        "title": "Just Twilight",
+        "medium": "manhwa",
+        "altNames": [""],
+        "author": [
+            "Woo Jihye (author)",
+            "Kang Ki (artist)"],
+        "status": "ongoing",
+        "tags": ["romance", "school life", "drama", "modern"],
+        "officialEn": "#",
+        "imgLink": "justtwilight.jpg",
+        "comments": ""
+    },
+    {
+        "title": "Stuck in My Sister's Dating Sim",
+        "medium": "manhwa",
+        "altNames": [],
+        "author": ["mongdo"],
+        "status": "ongoing",
+        "tags": ["bl", "otome isekai", "fantasy", "romance", "school life", "harem", "obsessive"],
+        "officialEn": "https://www.pocketcomics.com/comic/8548",
+        "imgLink": "stuckinmysistersdatingsim.jpg",
+        "comments": ""
+    },
+    {
+        "title": "Love and Let Lie",
+        "medium": "manhwa",
+        "altNames": ["Another Lie"],
+        "author": [
+            "Kim Son (author)",
+            "Lee Younggo (artist)"],
+        "status": "ongoing",
+        "tags": ["bl", "mature", "drama", "romance"],
+        "officialEn": "https://www.lezhinus.com/en/comic/loveletlie",
+        "imgLink": "loveletlie.jpg",
+        "comments": ""
+    },
+    {
         "title": "Bastard",
         "medium": "webtoon",
         "altNames": [],
