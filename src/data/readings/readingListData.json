@@ -617,6 +617,78 @@
         "comments": ""
     },
     {
+        "title": "Something About Us",
+        "medium": "webtoon",
+        "altNames": ["Our Relationship Is..."],
+        "author": ["Lee Yunji"],
+        "status": "complete",
+        "tags": ["romance", "school life"],
+        "officialEn": "https://www.lezhinus.com/en/comic/something_about_us",
+        "imgLink": "somethingaboutus.jpg",
+        "comments": ""
+    },
+    {
+        "title": "The Reason Why Raeliana Ended Up at the Duke's Mansion",
+        "medium": "webtoon",
+        "altNames": ["Why Raeliana Ended Up at the Duke's Mansion"],
+        "author": [
+            "Milcha (author)",
+            "Whale (고래) (artist)"],
+        "status": "complete",
+        "tags": ["otome isekai", "romance", "mystery", "fantasy", "nobility", "shoujo"],
+        "officialEn": "https://www.tappytoon.com/en/series/raeliana",
+        "imgLink": "raeliana.jpg",
+        "comments": ""
+    },
+    {
+        "title": "Trash Belongs in the Trash Can!",
+        "medium": "webtoon",
+        "altNames": [
+            "Throw the Trash in the Trash can!",
+            "Put the Trash to Where It Belongs!"],
+        "author": ["EDDiERiNG"],
+        "status": "ongoing",
+        "tags": ["romance", "thriller", "modern", "yandere"],
+        "officialEn": "https://www.webtoons.com/en/romance/trash-belongs-in-the-trash-can/list?title_no=4314",
+        "imgLink": "trash.jpg",
+        "comments": ""
+    },
+    {
+        "title": "Villain with a Crush",
+        "medium": "webtoon",
+        "altNames": ["Pure Villain"],
+        "author": ["Seyoon (세윤)"],
+        "status": "ongoing",
+        "tags": ["romance", "fantasy", "superpowers", "comedy", "action"],
+        "officialEn": "https://www.webtoons.com/en/romance/villain-with-a-crush/list?title_no=5048",
+        "imgLink": "purevillain.jpg",
+        "comments": ""
+    },
+    {
+        "title": "Return of the Blossoming Blade",
+        "medium": "webtoon",
+        "altNames": ["Return of the Mount Hua Sect"],
+        "author": [
+            "Biga (비가) (author)",
+            "LICO (artist)"],
+        "status": "ongoing",
+        "tags": ["murim", "comedy", "action", "reincarnation"],
+        "officialEn": "https://www.webtoons.com/en/action/return-of-the-blossoming-blade/list?title_no=2849",
+        "imgLink": "mounthua.jpg",
+        "comments": ""
+    },
+    {
+        "title": "Mystic Prince",
+        "medium": "webtoon",
+        "altNames": ["The Prince of Myolyeong"],
+        "author": ["Aheuredal (아흐레달)"],
+        "status": "ongoing",
+        "tags": ["superpowers", "drama", "action", "gender bender", "fantasy"],
+        "officialEn": "https://www.webtoons.com/en/drama/mystic-prince/list?title_no=4737",
+        "imgLink": "mysticprince.jpg",
+        "comments": ""
+    },
+    {
         "title": "Mo Dao Zu Shi",
         "medium": "manhua",
         "altNames": [
