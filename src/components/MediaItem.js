@@ -43,29 +43,7 @@ function MediaItem(props) {
         backgroundSize: "cover",
         backgroundPosition: "center"
     }
-    // Status returns a Badge component depending on item status
-    function Status() {
-        const stat = props.item.status;
-        if(stat === "ongoing") {
-            return (
-                <Badge pill bg="primary">
-                    ongoing
-                </Badge>
-            );
-        } else if(stat === "complete") {
-            return (
-                <Badge pill bg="success">
-                    complete
-                </Badge>
-            );
-        } else {
-            return(
-                <Badge pill bg="secondary">
-                    hiatus
-                </Badge>)
-            ;
-        }
-    }
+    
     /* enables horizontal scroll using mouse scroll wheel */
     function useHorizontalScroll() {
         const elRef = useRef();
@@ -101,7 +79,10 @@ function MediaItem(props) {
             </Card.Body>
             <ListGroup variant="flush">
                 <ListGroup.Item>
-                    Status: <Status />
+                    Status:
+                    <span className={props.item.status}>
+                        {props.item.status}
+                    </span>
                 </ListGroup.Item>
                 <ListGroup.Item ref={useHorizontalScroll()} style={tagStyle}>
                     {props.item.tags.map((item) => {
@@ -156,7 +137,9 @@ function MediaItem(props) {
                         {"Status: "}
                     </Col>
                     <Col xs={12} md={8}>
-                        <Status />
+                        <span className={props.item.status}>
+                            {props.item.status}
+                        </span>
                     </Col>
                 </Row>
                 <Row><br /></Row>
