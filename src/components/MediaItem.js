@@ -4,7 +4,6 @@ import Modal from 'react-bootstrap/Modal';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import ListGroup from 'react-bootstrap/ListGroup';
-import Badge from 'react-bootstrap/Badge';
 import { useRef, useEffect, useState } from "react";
 import allImages from "../data/readings/images/allImages";
 import './MediaItem.css';
@@ -26,7 +25,8 @@ function MediaItem(props) {
         whiteSpace: "nowrap",
         contain: "paint",
         overflowX: "auto",
-        overflowY: "hidden"
+        overflowY: "hidden",
+        paddingLeft: "0.5rem"
     }
     const imgStyle = {
         width: "18rem",
@@ -80,13 +80,16 @@ function MediaItem(props) {
             <ListGroup variant="flush">
                 <ListGroup.Item>
                     Status:
-                    <span className={props.item.status}>
+                    <span 
+                        className={props.item.status} 
+                        style={{marginLeft:"0.5rem"}}
+                    >
                         {props.item.status}
                     </span>
                 </ListGroup.Item>
                 <ListGroup.Item ref={useHorizontalScroll()} style={tagStyle}>
                     {props.item.tags.map((item) => {
-                            return <span className={item.replace(/ /g,'')}>{item}</span>
+                            return (<><span className={item.replace(/ /g,'')}>{item}</span>{' '}</>)
                     })}
                 </ListGroup.Item>
             </ListGroup>
@@ -150,7 +153,7 @@ function MediaItem(props) {
                     </Col>
                     <Col xs={12} md={8}>
                         {props.item.tags.map((item) => {
-                            return <span className={item.replace(/ /g,'')}>{item}</span>
+                            return (<><span className={item.replace(/ /g,'')}>{item}</span>{' '}</>)
                         })}
                     </Col>
                 </Row>
