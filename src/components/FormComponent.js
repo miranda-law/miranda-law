@@ -2,7 +2,7 @@ import React from "react";
 import { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
-import { default as funnel } from '../assets/funnel.svg';
+import { ReactComponent as Funnel } from '../assets/funnel.svg';
 import "./FormComponent.css";
 
 function FormComponent(props) {
@@ -14,10 +14,7 @@ function FormComponent(props) {
         <>
             {/* Filter Button */}
             <button id="formButton" onClick={handleShow}>
-                <img src={funnel} 
-                    alt="filter" 
-                    id="funnel" 
-                />
+                <Funnel />
             </button>
             <Modal show={show} onHide={handleClose} size="lg">
                 <Modal.Header closeButton>

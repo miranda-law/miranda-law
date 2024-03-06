@@ -9,10 +9,8 @@
     bottom: 1rem;
     right: 1rem;
 }
-
-#funnel {
-    width: 2rem; 
-    height: 2rem;
+#formButton:hover {
+    background-color: #5c636a;
 }
 
 input[type="radio"] {
