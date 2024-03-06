@@ -4,6 +4,17 @@
 .col-12 .row {
     padding: 0 0.75rem;
 }
+.enLink, .enLinkDisabled {
+    text-decoration: none;
+    color: white;
+}
+.enLink svg, .enLinkDisabled svg {
+    width: 1rem;
+    padding-bottom: 0.25rem;
+}
+.enLinkDisabled:hover {
+    cursor: not-allowed;
+}
 span {
     padding: 0 0.5rem 0.25rem;
     border-radius: 0.25rem;
@@ -50,6 +61,13 @@ span {
     color: #ac94df;
     border: 1px solid #ac94df;
 }
+.genderbender{
+    background: linear-gradient(to right, #fd4646, #6183ea);
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border: 1px solid violet;
+}
 .historical {
     color: #b97a56;
     border: 1px solid #b97a56;
@@ -57,6 +75,9 @@ span {
 .mature {
     color: #ec1c24;
     border: 1px solid #ec1c24;
+}
+.music {
+
 }
 .mystery {
     color: #c5c5c5;

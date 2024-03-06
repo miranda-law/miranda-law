@@ -6,7 +6,9 @@ import Col from 'react-bootstrap/Col';
 import ListGroup from 'react-bootstrap/ListGroup';
 import { useRef, useEffect, useState } from "react";
 import allImages from "../data/readings/images/allImages";
+import {ReactComponent as External} from '../assets/external.svg';
 import './MediaItem.css';
+
 
 
 function MediaItem(props) {
@@ -161,7 +163,28 @@ function MediaItem(props) {
                 {/* official english link row*/}
                 <Row>
                     <Col xs={6} md={4}>
-                        {"Official English"}
+                        {
+                            props.item.officialEn === "#"
+                            ?
+                                <a 
+                                    className="enLinkDisabled" 
+                                    href={props.item.officialEn}
+                                    target="_blank"
+                                    onClick={(event) => event.preventDefault()}
+                                >
+                                    {"Official English "}
+                                    <External />
+                                </a>
+                            :
+                            <a 
+                                className="enLink" 
+                                href={props.item.officialEn}
+                                target="_blank"
+                            >
+                                {"Official English "}
+                                <External />
+                            </a>
+                        }
                     </Col>
                 </Row> <br />
                 {/* comments row*/}
