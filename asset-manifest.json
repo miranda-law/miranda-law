@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/miranda-law/static/css/main.9685bd34.css",
-    "main.js": "/miranda-law/static/js/main.eec5bb9e.js",
+    "main.css": "/miranda-law/static/css/main.075f4a06.css",
+    "main.js": "/miranda-law/static/js/main.0a3f77ec.js",
     "static/js/453.815a8f22.chunk.js": "/miranda-law/static/js/453.815a8f22.chunk.js",
     "static/media/nisekoi.jpg": "/miranda-law/static/media/nisekoi.d4e4941b92358f31925b.jpg",
     "static/media/dotingprince.png": "/miranda-law/static/media/dotingprince.bf8898caea95c696efe6.png",
@@ -30,6 +30,7 @@
     "static/media/lightshadow.jpg": "/miranda-law/static/media/lightshadow.7ce5f026d5b456e8b338.jpg",
     "static/media/lewellyn.jpg": "/miranda-law/static/media/lewellyn.d1eb1049ae09ee1bc94b.jpg",
     "static/media/mastervillainess.jpg": "/miranda-law/static/media/mastervillainess.8bb49809edada6a4af8b.jpg",
+    "static/media/raeliana.jpg": "/miranda-law/static/media/raeliana.ee44615290ea4bfae72a.jpg",
     "static/media/butterflyrat.jpg": "/miranda-law/static/media/butterflyrat.ad005ec68487209278ee.jpg",
     "static/media/khr.jpg": "/miranda-law/static/media/khr.3e1bd04653ee128922b4.jpg",
     "static/media/spyfamily.jpg": "/miranda-law/static/media/spyfamily.f39b5df0eda5f3ea0422.jpg",
@@ -39,10 +40,14 @@
     "static/media/penelope.jpg": "/miranda-law/static/media/penelope.ae6407b5fa18a49b984e.jpg",
     "static/media/chasingthesun.jpg": "/miranda-law/static/media/chasingthesun.e46af121b90e31be3fbb.jpg",
     "static/media/villainessflipsscript.jpg": "/miranda-law/static/media/villainessflipsscript.946c70890c09b7283f3b.jpg",
+    "static/media/mysticprince.jpg": "/miranda-law/static/media/mysticprince.e062e18b7d4dd30c19d2.jpg",
+    "static/media/somethingaboutus.jpg": "/miranda-law/static/media/somethingaboutus.0a6f9dff57ac6a3cdd56.jpg",
     "static/media/shujinkou-nikki.jpg": "/miranda-law/static/media/shujinkou-nikki.f5bcd8eb909731d6c9cf.jpg",
     "static/media/holygrailoferis.jpg": "/miranda-law/static/media/holygrailoferis.876182dd805ef0c5dfdf.jpg",
+    "static/media/trash.jpg": "/miranda-law/static/media/trash.327067553fcb22411b22.jpg",
     "static/media/hiranoandkagi.jpg": "/miranda-law/static/media/hiranoandkagi.45ce2665ee585cd53b9b.jpg",
     "static/media/hereUAre.jpg": "/miranda-law/static/media/hereUAre.511cd21e5c7d376afc19.jpg",
+    "static/media/purevillain.jpg": "/miranda-law/static/media/purevillain.fb0b335c649d98847cca.jpg",
     "static/media/forbetter.jpg": "/miranda-law/static/media/forbetter.ddc1fc3c6de2bcb5828f.jpg",
     "static/media/checkmate.jpg": "/miranda-law/static/media/checkmate.08fb9c32929745bfd874.jpg",
     "static/media/villainess24hr.jpeg": "/miranda-law/static/media/villainess24hr.563e40a2d106933ab52d.jpeg",
@@ -53,6 +58,7 @@
     "static/media/bastard.jpg": "/miranda-law/static/media/bastard.59cc0bef6254fb498dfe.jpg",
     "static/media/julyfoundbychance.jpg": "/miranda-law/static/media/julyfoundbychance.e088a63f6ee33c858c68.jpg",
     "static/media/evenmonsters.jpg": "/miranda-law/static/media/evenmonsters.74e2d091cdf737056582.jpg",
+    "static/media/mounthua.jpg": "/miranda-law/static/media/mounthua.a2d255f66af92bb9dd9f.jpg",
     "static/media/thirtyyearsold.jpg": "/miranda-law/static/media/thirtyyearsold.d6d03cef7b4bc6e8a856.jpg",
     "static/media/matriarch.jpg": "/miranda-law/static/media/matriarch.c1d53a014c3a3b197f78.jpg",
     "static/media/orangemarmalade.jpg": "/miranda-law/static/media/orangemarmalade.73b95de389d2e49fc32a.jpg",
@@ -61,12 +67,13 @@
     "static/media/sevendays.jpg": "/miranda-law/static/media/sevendays.c307345b50d48a591553.jpg",
     "index.html": "/miranda-law/index.html",
     "static/media/funnel.svg": "/miranda-law/static/media/funnel.7e2f992e6a70dddf98f76a3954316c92.svg",
-    "main.9685bd34.css.map": "/miranda-law/static/css/main.9685bd34.css.map",
-    "main.eec5bb9e.js.map": "/miranda-law/static/js/main.eec5bb9e.js.map",
+    "static/media/external.svg": "/miranda-law/static/media/external.f512b266419b376a8a9a1ee74bb2c8d8.svg",
+    "main.075f4a06.css.map": "/miranda-law/static/css/main.075f4a06.css.map",
+    "main.0a3f77ec.js.map": "/miranda-law/static/js/main.0a3f77ec.js.map",
     "453.815a8f22.chunk.js.map": "/miranda-law/static/js/453.815a8f22.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9685bd34.css",
-    "static/js/main.eec5bb9e.js"
+    "static/css/main.075f4a06.css",
+    "static/js/main.0a3f77ec.js"
   ]
 }
