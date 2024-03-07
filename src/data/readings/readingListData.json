@@ -782,7 +782,7 @@
             "Ramguel (author)",
             "KAKON (artist)"],
         "status": "hiatus",
-        "tags": ["villainess", "reincarnation", "nobility", "fantasy", "drama"],
+        "tags": ["villainess", "regression", "nobility", "fantasy", "drama"],
         "officialEn": "https://www.webtoons.com/en/fantasy/the-tyrant-wants-to-be-good/list?title_no=5201",
         "imgLink": "tyrantwantstobegood.jpg",
         "comments": ""
@@ -798,6 +798,141 @@
         "tags": ["otome isekai", "romance", "nobility", "fantasy"],
         "officialEn": "https://www.webtoons.com/en/romance/the-male-leads-girl-friend/list?title_no=3412",
         "imgLink": "maleleadsgirlfriend.jpg",
+        "comments": ""
+    },
+    {
+        "title": "From Knight to Lady",
+        "medium": "webtoon",
+        "altNames": [],
+        "author": [
+            "Hyerim Sung (author)",
+            "Coyo (artist)",
+            "Ink."],
+        "status": "ongoing",
+        "tags": ["revenge", "reincarnation", "nobility", "romance", "drama"],
+        "officialEn": "https://www.webtoons.com/en/fantasy/from-a-knight-to-a-lady/list?title_no=3164&page=1",
+        "imgLink": "fromknighttolady.jpg",
+        "comments": ""
+    },
+    {
+        "title": "I'm the Queen in This Life",
+        "medium": "webtoon",
+        "altNames": ["Sister, I'm the Queen in this Life"],
+        "author": [
+            "Omin (author)",
+            "Lefaljinf (author)",
+            "Themis (테미스) (artist)"],
+        "status": "ongoing",
+        "tags": ["revenge", "nobility", "regression", "romance"],
+        "officialEn": "https://www.webtoons.com/en/fantasy/im-the-queen-in-this-life/list?title_no=4886",
+        "imgLink": "queeninthislife.jpg",
+        "comments": ""
+    },
+    {
+        "title": "I'm No Heroine!",
+        "medium": "webtoon",
+        "altNames": [""],
+        "author": [
+            "Yehwon (author)",
+            "Salaman (샐러맨) (artist)"],
+        "status": "hiatus",
+        "tags": ["reincarnation", "school life", "romance", "fantasy", "nobility"],
+        "officialEn": "https://www.lezhinus.com/en/comic/im_no_heroine",
+        "imgLink": "imnoheroine.jpg",
+        "comments": ""
+    },
+    {
+        "title": "Not Your Typical Reincarnation Story",
+        "medium": "webtoon",
+        "altNames": ["I Thought It Was a Common Possession"],
+        "author": [
+            "DOYOSAY (author)",
+            "Wonjak (author)",
+            "Ajin (artist)"],
+        "status": "ongoing",
+        "tags": ["otome isekai", "nobility", "romance", "villainess"],
+        "officialEn": "https://www.webtoons.com/en/romance/not-your-typical-reincarnation-story/list?title_no=5556",
+        "imgLink": "notyourtypicalreincarnation.jpg",
+        "comments": ""
+    },
+    {
+        "title": "Crowning a Spoiled Prince",
+        "medium": "webtoon",
+        "altNames": ["Second Life of a Trash Princess"],
+        "author": [
+            "Haein (author)",
+            "Wheedrian (author)",
+            "Jonadan (artist)"],
+        "status": "ongoing",
+        "tags": ["regression", "fantasy", "nobility", "romance", "comedy"],
+        "officialEn": "https://tapas.io/series/crowning-a-spoiled-prince/info",
+        "imgLink": "crowningaspoiledprince.jpg",
+        "comments": ""
+    },
+    {
+        "title": "Back to You",
+        "medium": "webtoon",
+        "altNames": ["Just a Girl He Knows"],
+        "author": ["Honey B"],
+        "status": "complete",
+        "tags": ["regression", "time travel", "slowburn", "romance", "modern", "drama"],
+        "officialEn": "https://www.webtoons.com/en/drama/back-to-you/list?title_no=2113",
+        "imgLink": "backtoyou.jpg",
+        "comments": ""
+    },
+    {
+        "title": "My Sister's Private Life",
+        "medium": "webtoon",
+        "altNames": [],
+        "author": [
+            "Jojuhee (author)",
+            "Nureom (artist)"],
+        "status": "ongoing",
+        "tags": ["mystery", "romance", "comedy", "modern"],
+        "officialEn": "https://www.webtoons.com/en/mystery/my-sisters-private-life/list?title_no=5733",
+        "imgLink": "sistersprivatelife.jpg",
+        "comments": ""
+    },
+    {
+        "title": "Marry My Husband",
+        "medium": "webtoon",
+        "altNames": [],
+        "author": [
+            "sungsojak (author)",
+            "LICO (artist)"],
+        "status": "complete",
+        "tags": ["revenge", "regression", "drama", "romance", "modern", "office"],
+        "officialEn": "https://www.webtoons.com/en/romance/marry-my-husband/list?title_no=4572",
+        "imgLink": "marrymyhusband.jpg",
+        "comments": ""
+    },
+    {
+        "title": "True Beauty",
+        "medium": "webtoon",
+        "altNames": [
+            "The Secret of Angel", 
+            "The Secret of a Goddess", 
+            "Beauty Secrets"],
+        "author": ["Yaongyi"],
+        "status": "complete",
+        "tags": ["romance", "drama", "modern", "comedy", "entertainment industry", "school life"],
+        "officialEn": "https://www.webtoons.com/en/romance/truebeauty/list?title_no=1436",
+        "imgLink": "truebeauty.jpeg",
+        "comments": ""
+    },
+    {
+        "title": "'Til Death Do Us Part",
+        "medium": "webtoon",
+        "altNames": [
+            "A Bittersweet Couple", 
+            "A Bittersweet Marriage"],
+        "author": [
+            "Flowbee (author)",
+            "janggreen  (artist)"],
+        "status": "complete",
+        "tags": ["romance", "office", "comedy", "drama"],
+        "officialEn": "https://www.webtoons.com/en/romance/til-debt-do-us-part/list?title_no=3115",
+        "imgLink": "bittersweetmarriage.jpg",
         "comments": ""
     },
     {
