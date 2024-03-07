@@ -44,7 +44,7 @@
         "author": ["Akira Amano"],
         "status": "complete",
         "tags": ["comedy", "shounen", "action", "superpowers", "school life", "mystery"],
-        "officialEn": "",
+        "officialEn": "#",
         "imgLink": "khr.jpg",
         "comments": "This is one of the first mangas I've ever read. The beginning is slice of life, but the action starts with the Vongola Rings arc. ALSO HIBARI AND YAMAMOTO ARE SO FINE"
     },
@@ -77,7 +77,7 @@
         "medium": "manga",
         "altNames": [
             "Maydare Tensei Monogatari: Kono Sekai de Ichiban Warui Majo",
-            "Meidea Reincarnation Theory: The World’s Worst Witch"],
+            "Meidea Reincarnation Theory: The World's Worst Witch"],
         "author": [
             "Yuuma Midori (author)",
             "Natsunishi Nana (artist)"],
@@ -279,7 +279,7 @@
         "comments": "cute and funny love story between a bubbly girl and a pro gamer involving a rpg game + super funny side characters"
 	},
     {
-        "title": "Heroine’s (Love) Diary",
+        "title": "Heroine's (Love) Diary",
         "medium": "manga",
         "altNames": ["Shujinkou Nikki"],
         "author": ["Yoshinaga Yuu"],
@@ -324,7 +324,7 @@
             "Yokoyari Mengo (artist)"],
         "status": "ongoing",
         "tags": ["mystery", "reincarnation", "drama", "entertainment industry", "comedy", "romance"],
-        "officialEn": "https://www.viz.com/bakuman",
+        "officialEn": "https://mangaplus.shueisha.co.jp/titles/100191",
         "imgLink": "oshinoko.jpg",
         "comments": ""
 	},
@@ -686,6 +686,118 @@
         "tags": ["superpowers", "drama", "action", "gender bender", "fantasy"],
         "officialEn": "https://www.webtoons.com/en/drama/mystic-prince/list?title_no=4737",
         "imgLink": "mysticprince.jpg",
+        "comments": ""
+    },
+    {
+        "title": "Your Throne",
+        "medium": "webtoon",
+        "altNames": [
+            "I Want To Be You, Just For A Day", 
+            "To Be You, Even Just for a Day"],
+        "author": ["Sam"],
+        "status": "ongoing",
+        "tags": ["nobility", "body swap", "fantasy", "thriller", "mystery"],
+        "officialEn": "https://www.webtoons.com/en/fantasy/your-throne/list?title_no=2009",
+        "imgLink": "yourthrone.jpg",
+        "comments": ""
+    },
+    {
+        "title": "Kill the Villainess",
+        "medium": "webtoon",
+        "altNames": [],
+        "author": [
+            "Your April (author)",
+            "Haegi (artist)"],
+        "status": "complete",
+        "tags": ["otome isekai", "villainess", "fantasy", "nobility", "harem", "romance", "drama"],
+        "officialEn": "https://tapas.io/series/kill-the-villainess/info",
+        "imgLink": "killthevillainess.jpg",
+        "comments": ""
+    },
+    {
+        "title": "Maybe Meant to Be",
+        "medium": "webtoon",
+        "altNames": ["Match Made in Heaven By Chance"],
+        "author": [
+            "Honey Skein (꿀타래) (author)",
+            "Damcho (담초) (artist)"],
+        "status": "hiatus",
+        "tags": ["romance", "comedy", "modern"],
+        "officialEn": "https://www.webtoons.com/en/romance/maybe-meant-to-be/list?title_no=4208",
+        "imgLink": "maybemeanttobe.jpg",
+        "comments": ""
+    },
+    {
+        "title": "Lout of Count's Family",
+        "medium": "webtoon",
+        "altNames": [
+            "Trash of the Count's Family", 
+            "Trash Count"],
+        "author": [
+            "PING (별나래) (author)",
+            "Yu Ryeo Han (유려한) (author)",
+            "PAN4 (artist)"],
+        "status": "ongoing",
+        "tags": ["isekai", "fantasy", "nobility", "action", "adventure"],
+        "officialEn": "https://www.tappytoon.com/en/book/lout-of-counts-family",
+        "imgLink": "trashofthecountsfamily.jpg",
+        "comments": ""
+    },
+    {
+        "title": "Omniscient Reader",
+        "medium": "webtoon",
+        "altNames": [
+            "Omniscient Reader's Viewpoint",
+            "ORV"],
+        "author": [
+            "sing N song (싱숑) (author)",
+            "UMI (author)",
+            "Sleepy-C (슬리피-C) (artist)"],
+        "status": "ongoing",
+        "tags": ["isekai", "action", "fantasy", "superpowers"],
+        "officialEn": "https://www.webtoons.com/en/action/omniscient-reader/list?title_no=2154",
+        "imgLink": "orv.jpg",
+        "comments": ""
+    },
+    {
+        "title": "A Martial Master Wakes Up as a Concubine",
+        "medium": "webtoon",
+        "altNames": ["Gosu, Wakes Up as a Concubine"],
+        "author": [
+            "Koh Yanghui (author)",
+            "LICO (artist)"],
+        "status": "ongoing",
+        "tags": ["murim", "body swap", "comedy", "romance", "action"],
+        "officialEn": "https://www.webtoons.com/en/fantasy/a-martial-master-wakes-up-as-a-concubine/list?title_no=5732",
+        "imgLink": "martialmasterasconcubine.jpg",
+        "comments": ""
+    },
+    {
+        "title": "The Tyrant Wants to be Good",
+        "medium": "webtoon",
+        "altNames": [
+            "The Tyrant Wants to Live Honestly", 
+            "The Tyrant Wants to Live a Virtuous Life"],
+        "author": [
+            "Ramguel (author)",
+            "KAKON (artist)"],
+        "status": "hiatus",
+        "tags": ["villainess", "reincarnation", "nobility", "fantasy", "drama"],
+        "officialEn": "https://www.webtoons.com/en/fantasy/the-tyrant-wants-to-be-good/list?title_no=5201",
+        "imgLink": "tyrantwantstobegood.jpg",
+        "comments": ""
+    },
+    {
+        "title": "The Male Lead's Girl Friend",
+        "medium": "webtoon",
+        "altNames": [],
+        "author": [
+            "Ryu Heon (author)",
+            "KAKON (artist)"],
+        "status": "complete",
+        "tags": ["otome isekai", "romance", "nobility", "fantasy"],
+        "officialEn": "https://www.webtoons.com/en/romance/the-male-leads-girl-friend/list?title_no=3412",
+        "imgLink": "maleleadsgirlfriend.jpg",
         "comments": ""
     },
     {
