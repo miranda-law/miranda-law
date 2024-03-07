@@ -14,7 +14,7 @@ function FormComponent(props) {
         <>
             {/* Filter Button */}
             <button id="formButton" onClick={handleShow}>
-                <Funnel />
+                <Funnel id="funnelIcon" />
             </button>
             <Modal show={show} onHide={handleClose} size="lg">
                 <Modal.Header closeButton>

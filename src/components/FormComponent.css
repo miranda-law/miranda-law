@@ -12,6 +12,10 @@
 #formButton:hover {
     background-color: #5c636a;
 }
+#funnelIcon {
+    width: 1.75rem;
+    padding: 0;
+}
 
 input[type="radio"] {
     display: inline;

@@ -1,6 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
+import {ReactComponent as HomeIcon} from '../assets/home.svg';
+import {ReactComponent as IdeaIcon} from '../assets/idea.svg';
+import {ReactComponent as BookIcon} from '../assets/book.svg';
 import './NavigationBar.css';
 
 function NavigationBar() {
@@ -9,7 +12,9 @@ function NavigationBar() {
           <ul>
             <li><Link to="/miranda-law">Miranda Law</Link></li>
             <li className="right" id="dropdown">
-              <Link to="reads">Reading List</Link>
+              <Link to="reads">
+                <BookIcon />{' '}Reading List
+              </Link>
               <div className="dropdown-content">
                 <HashLink to="/miranda-law/reads#manga-header">Manga</HashLink>
                 <HashLink to="/miranda-law/reads#manhwa-header">Manhwa</HashLink>
@@ -18,8 +23,16 @@ function NavigationBar() {
                 <HashLink to="/miranda-law/reads#anime-header">Anime</HashLink>
               </div>
             </li>
-            <li className="right"><Link to="projects">Projects</Link></li>
-            <li className="right"><Link to="/miranda-law">Home</Link></li>
+            <li className="right">
+              <Link to="projects">
+                <IdeaIcon />{' '}Projects
+              </Link>
+            </li>
+            <li className="right">
+              <Link to="/miranda-law">
+                <HomeIcon />{' '}Home
+              </Link>
+            </li>
           </ul>
         </nav>
   );
