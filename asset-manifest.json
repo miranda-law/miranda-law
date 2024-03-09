@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/miranda-law/static/css/main.0ba14be2.css",
-    "main.js": "/miranda-law/static/js/main.df00bf72.js",
+    "main.js": "/miranda-law/static/js/main.ffe7fe4b.js",
     "static/js/453.815a8f22.chunk.js": "/miranda-law/static/js/453.815a8f22.chunk.js",
     "static/media/nisekoi.jpg": "/miranda-law/static/media/nisekoi.d4e4941b92358f31925b.jpg",
     "static/media/dotingprince.png": "/miranda-law/static/media/dotingprince.bf8898caea95c696efe6.png",
@@ -43,6 +43,7 @@
     "static/media/promisecinderella.jpg": "/miranda-law/static/media/promisecinderella.ad0f7611543de924106c.jpg",
     "static/media/attheend.jpg": "/miranda-law/static/media/attheend.3b81a1d9d7f56a109d60.jpg",
     "static/media/justtwilight.jpg": "/miranda-law/static/media/justtwilight.716ec25f16f46e76c573.jpg",
+    "static/media/secretalliance.jpg": "/miranda-law/static/media/secretalliance.bc003b3b7414e7951021.jpg",
     "static/media/notyourtypicalreincarnation.jpg": "/miranda-law/static/media/notyourtypicalreincarnation.bdb76a22b052dcc55612.jpg",
     "static/media/penelope.jpg": "/miranda-law/static/media/penelope.ae6407b5fa18a49b984e.jpg",
     "static/media/chasingthesun.jpg": "/miranda-law/static/media/chasingthesun.e46af121b90e31be3fbb.jpg",
@@ -54,6 +55,7 @@
     "static/media/holygrailoferis.jpg": "/miranda-law/static/media/holygrailoferis.876182dd805ef0c5dfdf.jpg",
     "static/media/maybemeanttobe.jpg": "/miranda-law/static/media/maybemeanttobe.ea31b89ebc39641aae0c.jpg",
     "static/media/queeninthislife.jpg": "/miranda-law/static/media/queeninthislife.c4c9f753579a3de4af95.jpg",
+    "static/media/gooddaytobeadog.jpg": "/miranda-law/static/media/gooddaytobeadog.7b640bdaa47f1a36baf7.jpg",
     "static/media/sistersprivatelife.jpg": "/miranda-law/static/media/sistersprivatelife.1f64ce216459e4ed46e3.jpg",
     "static/media/trash.jpg": "/miranda-law/static/media/trash.327067553fcb22411b22.jpg",
     "static/media/backtoyou.jpg": "/miranda-law/static/media/backtoyou.e2d4252ce5a08b94d9b7.jpg",
@@ -64,9 +66,11 @@
     "static/media/purevillain.jpg": "/miranda-law/static/media/purevillain.fb0b335c649d98847cca.jpg",
     "static/media/forbetter.jpg": "/miranda-law/static/media/forbetter.ddc1fc3c6de2bcb5828f.jpg",
     "static/media/checkmate.jpg": "/miranda-law/static/media/checkmate.08fb9c32929745bfd874.jpg",
+    "static/media/lovesongforillusion.jpg": "/miranda-law/static/media/lovesongforillusion.7b96116254e64d4396e1.jpg",
     "static/media/villainess24hr.jpeg": "/miranda-law/static/media/villainess24hr.563e40a2d106933ab52d.jpeg",
     "static/media/guangxiang.jpg": "/miranda-law/static/media/guangxiang.cdefebd26e41f9456f14.jpg",
     "static/media/positivelyyours.jpg": "/miranda-law/static/media/positivelyyours.2099dd09307efe0fdd73.jpg",
+    "static/media/nolongeraheroine.jpg": "/miranda-law/static/media/nolongeraheroine.d89fbd2dc76b36fa0ba4.jpg",
     "static/media/stuckinmysistersdatingsim.jpg": "/miranda-law/static/media/stuckinmysistersdatingsim.b8df67c33d5545464ef1.jpg",
     "static/media/marrymyhusband.jpg": "/miranda-law/static/media/marrymyhusband.1b83d98478f7b413ed75.jpg",
     "static/media/truebeauty.jpeg": "/miranda-law/static/media/truebeauty.9e608f4383de67d0c5ad.jpeg",
@@ -74,15 +78,20 @@
     "static/media/bastard.jpg": "/miranda-law/static/media/bastard.59cc0bef6254fb498dfe.jpg",
     "static/media/julyfoundbychance.jpg": "/miranda-law/static/media/julyfoundbychance.e088a63f6ee33c858c68.jpg",
     "static/media/evenmonsters.jpg": "/miranda-law/static/media/evenmonsters.74e2d091cdf737056582.jpg",
+    "static/media/19thlife.jpg": "/miranda-law/static/media/19thlife.cdf3c0fbc66f8b1d85e8.jpg",
     "static/media/mounthua.jpg": "/miranda-law/static/media/mounthua.a2d255f66af92bb9dd9f.jpg",
+    "static/media/sweethome.jpg": "/miranda-law/static/media/sweethome.c2b6ee839d936292187b.jpg",
+    "static/media/shotgunboy.jpg": "/miranda-law/static/media/shotgunboy.b03d7fee1798f88b179e.jpg",
     "static/media/thirtyyearsold.jpg": "/miranda-law/static/media/thirtyyearsold.d6d03cef7b4bc6e8a856.jpg",
     "static/media/orv.jpg": "/miranda-law/static/media/orv.da075be2e2dd7a78e391.jpg",
     "static/media/matriarch.jpg": "/miranda-law/static/media/matriarch.c1d53a014c3a3b197f78.jpg",
+    "static/media/dearx.jpg": "/miranda-law/static/media/dearx.8b6824eb408f15a42c36.jpg",
     "static/media/orangemarmalade.jpg": "/miranda-law/static/media/orangemarmalade.73b95de389d2e49fc32a.jpg",
     "static/media/saladdays.jpg": "/miranda-law/static/media/saladdays.9cd2eb80b870d5fcfa6a.jpg",
     "static/media/martialmasterasconcubine.jpg": "/miranda-law/static/media/martialmasterasconcubine.97ac2667cf76ed2def4c.jpg",
     "static/media/oshinoko.jpg": "/miranda-law/static/media/oshinoko.c65f1515c499bd83f79a.jpg",
     "static/media/sevendays.jpg": "/miranda-law/static/media/sevendays.c307345b50d48a591553.jpg",
+    "static/media/avertedgazer.jpg": "/miranda-law/static/media/avertedgazer.3b57f513f866e02d6ca9.jpg",
     "index.html": "/miranda-law/index.html",
     "static/media/funnel.svg": "/miranda-law/static/media/funnel.7e2f992e6a70dddf98f76a3954316c92.svg",
     "static/media/idea.svg": "/miranda-law/static/media/idea.e6d2a31d93bb48d2b042d17bf3f63cb3.svg",
@@ -90,11 +99,11 @@
     "static/media/home.svg": "/miranda-law/static/media/home.3f6b5dde843a9bfde4276da1458f5755.svg",
     "static/media/external.svg": "/miranda-law/static/media/external.f512b266419b376a8a9a1ee74bb2c8d8.svg",
     "main.0ba14be2.css.map": "/miranda-law/static/css/main.0ba14be2.css.map",
-    "main.df00bf72.js.map": "/miranda-law/static/js/main.df00bf72.js.map",
+    "main.ffe7fe4b.js.map": "/miranda-law/static/js/main.ffe7fe4b.js.map",
     "453.815a8f22.chunk.js.map": "/miranda-law/static/js/453.815a8f22.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0ba14be2.css",
-    "static/js/main.df00bf72.js"
+    "static/js/main.ffe7fe4b.js"
   ]
 }
