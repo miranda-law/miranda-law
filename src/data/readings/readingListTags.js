@@ -18,6 +18,7 @@ const allTags = [
     "isekai",
     "mature",
     "modern",
+    "movie",
     "murim",
     "music",
     "mystery",
