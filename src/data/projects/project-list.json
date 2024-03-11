@@ -1,0 +1,20 @@
+[
+    {
+      "project": "Mighty Minds Blog",
+      "stack": ["R", "R Markdown", "Plotly"],
+      "link": "https://miranda-law.github.io/mighty-minds-blog/",
+      "description": "This blog is an extension of the Mighty Minds Shiny App. Contains interactive charts and maps to explore the global prevalence of depression across different demographics from 1990-2019."
+    },
+    {
+      "project": "Mighty Minds Shiny App",
+      "stack": ["R", "Shiny"],
+      "link": "https://miralaw.shinyapps.io/mighty-minds/",
+      "description": "This app aims to explore the impact of COVID-19 on mental illness in the USA across different demographics using interactive charts, graphs, and maps."
+    },
+    {
+      "project": "League of Legends Win Predictor",
+      "stack": ["Python", "scikit-learn", "NumPy", "pandas", "Jupyter Notebooks", "RiotAPI"],
+      "link": "https://github.com/miranda-law/machine-learning-final-project/blob/main/final-project.ipynb",
+      "description": "This project trains various machine learning models from scikit-learn using my personal League of Legends solo queue statistics to classify games as a win or a loss."
+    }
+  ]
