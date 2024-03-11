@@ -1,4 +1,4 @@
-import React from "react";
+import React, {Fragment} from "react";
 import { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
@@ -10,6 +10,9 @@ function FormComponent(props) {
 
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
+
+    const data = props.item;
+
     return (
         <>
             {/* Filter Button */}
@@ -30,7 +33,7 @@ function FormComponent(props) {
                                 type="radio" 
                                 name="form-status"
                                 value="all"
-                                checked={props.item.displayStatus === "all"}
+                                checked={data.displayStatus === "all"}
                                 onChange={props.handleChange}
                             /> All
                         </label>
@@ -40,7 +43,7 @@ function FormComponent(props) {
                                 type="radio" 
                                 name="form-status"
                                 value="complete"
-                                checked={props.item.displayStatus === "complete"}
+                                checked={data.displayStatus === "complete"}
                                 onChange={props.handleChange}
                             /> Complete
                         </label>
@@ -50,7 +53,7 @@ function FormComponent(props) {
                                 type="radio" 
                                 name="form-status"
                                 value="ongoing"
-                                checked={props.item.displayStatus === "ongoing"}
+                                checked={data.displayStatus === "ongoing"}
                                 onChange={props.handleChange}
                             /> Ongoing
                         </label>
@@ -60,7 +63,7 @@ function FormComponent(props) {
                                 type="radio" 
                                 name="form-status"
                                 value="hiatus"
-                                checked={props.item.displayStatus === "hiatus"}
+                                checked={data.displayStatus === "hiatus"}
                                 onChange={props.handleChange}
                             /> Hiatus
                         </label> <br /> <br />
@@ -79,19 +82,19 @@ function FormComponent(props) {
                         </button>
                         {/* tags display */}
                         <div className="form-tag-container">
-                            {Object.keys(props.item.displayTags).map((item) => {
+                            {Object.keys(data.displayTags).map((item, i) => {
                                 return (
-                                <>
+                                <Fragment key={`formtag${i}`}>
                                     <label key={`checkbox-${item}`}className="checkbox-choice">
                                         <input 
                                             type="checkbox" 
                                             name="form-tags"
                                             value={item}
-                                            checked={props.item.displayTags[item]}
+                                            checked={data.displayTags[item]}
                                             onChange={props.handleChange}
                                         /> {item}
                                     </label> <br />
-                                </>)
+                                </Fragment>)
                             })}
                         </div>
                     </form>

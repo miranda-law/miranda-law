@@ -14,7 +14,7 @@ import allTags from "../data/readings/readingListTags";
 
 class Reads extends React.Component {
     constructor() {
-        super()
+        super();
         this.state = {
             mangas: mangaData,
             manhwas: manhwaData,
@@ -23,13 +23,13 @@ class Reads extends React.Component {
             animes: animeData,
             displayStatus: "all",
             displayTags: {}
-        }
-        this.handleChange = this.handleChange.bind(this)
+        };
+        this.handleChange = this.handleChange.bind(this);
         // set up displayTags
         let tempTags = {};
         allTags.forEach((item) => {
             tempTags[item] = false;
-        })
+        });
         this.state.displayTags = tempTags;
         
     }
@@ -157,21 +157,21 @@ class Reads extends React.Component {
 
     }
     render() {
-        //console.log(this.state.mangas)
-        const mangaItems = this.state.mangas.map(
-            item => <MediaItem key={item.title} item={item} />
+
+        const mangaItems = this.state.mangas.map((item, i) => 
+            <MediaItem key={`manga${i}`} dataKey={`manga${i}`} item={item} />
         );
-        const manhwaItems = this.state.manhwas.map(
-            item => <MediaItem key={item.title} item={item} />
+        const manhwaItems = this.state.manhwas.map((item, i) => 
+            <MediaItem key={`manhwa${i}`} dataKey={`manhwa${i}`} item={item} />
         );
-        const webtoonItems = this.state.webtoons.map(
-            item => <MediaItem key={item.title} item={item} />
+        const webtoonItems = this.state.webtoons.map((item, i) => 
+            <MediaItem key={`webtoon${i}`} dataKey={`webtoon${i}`} item={item} />
         );
-        const manhuaItems = this.state.manhuas.map(
-            item => <MediaItem key={item.title} item={item} />
+        const manhuaItems = this.state.manhuas.map((item, i) => 
+            <MediaItem key={`manhua${i}`} dataKey={`manhua${i}`} item={item} />
         );
-        const animeItems = this.state.animes.map(
-            item => <MediaItem key={item.title} item={item} />
+        const animeItems = this.state.animes.map((item, i) => 
+            <MediaItem key={`anime${i}`} dataKey={`anime${i}`} item={item} />
         );
 
         return (
@@ -188,7 +188,6 @@ class Reads extends React.Component {
                 <Row><h1 id="anime">Anime</h1></Row>
                 <Row>{animeItems}</Row>
                 <FormComponent 
-                    key="filterForm"
                     item={this.state} 
                     handleFormStatus={this.handleFormStatus}
                     handleFormTags={this.handleFormTags}
