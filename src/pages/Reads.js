@@ -177,17 +177,18 @@ class Reads extends React.Component {
         return (
             
             <Container fluid>
-                <Row><h1 id="manga-header">Manga</h1></Row>
+                <Row><h1 id="manga">Manga</h1></Row>
                 <Row>{mangaItems}</Row> <br />
-                <Row><h1 id="manhwa-header">Manhwa</h1></Row>
+                <Row><h1 id="manhwa">Manhwa</h1></Row>
                 <Row>{manhwaItems}</Row> <br />
-                <Row><h1 id="webtoon-header">Webtoon</h1></Row>
+                <Row><h1 id="webtoon">Webtoon</h1></Row>
                 <Row>{webtoonItems}</Row> <br />
-                <Row><h1 id="manhua-header">Manhua</h1></Row>
+                <Row><h1 id="manhua">Manhua</h1></Row>
                 <Row>{manhuaItems}</Row> <br />
-                <Row><h1 id="anime-header">Anime</h1></Row>
+                <Row><h1 id="anime">Anime</h1></Row>
                 <Row>{animeItems}</Row>
                 <FormComponent 
+                    key="filterForm"
                     item={this.state} 
                     handleFormStatus={this.handleFormStatus}
                     handleFormTags={this.handleFormTags}

@@ -16,11 +16,11 @@ function NavigationBar() {
                 <BookIcon />{' '}Reading List
               </Link>
               <div className="dropdown-content">
-                <HashLink to="/miranda-law/reads#manga-header">Manga</HashLink>
-                <HashLink to="/miranda-law/reads#manhwa-header">Manhwa</HashLink>
-                <HashLink to="/miranda-law/reads#webtoon-header">Webtoon</HashLink>
-                <HashLink to="/miranda-law/reads#manhua-header">Manhua</HashLink>
-                <HashLink to="/miranda-law/reads#anime-header">Anime</HashLink>
+                <HashLink to="/miranda-law/reads#manga">Manga</HashLink>
+                <HashLink to="/miranda-law/reads#manhwa">Manhwa</HashLink>
+                <HashLink to="/miranda-law/reads#webtoon">Webtoon</HashLink>
+                <HashLink to="/miranda-law/reads#manhua">Manhua</HashLink>
+                <HashLink to="/miranda-law/reads#anime">Anime</HashLink>
               </div>
             </li>
             <li className="right">
