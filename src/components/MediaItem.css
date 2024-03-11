@@ -11,6 +11,10 @@
 .enLink svg, .enLinkDisabled svg {
     width: 1rem;
     padding-bottom: 0.25rem;
+    stroke-width: 2.5;
+}
+.enLink:hover {
+    font-weight: bolder;
 }
 .enLinkDisabled:hover {
     cursor: not-allowed;
