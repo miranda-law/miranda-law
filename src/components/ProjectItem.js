@@ -7,7 +7,7 @@ function ProjectItem(props) {
     const k = props.dataKey;
     return (
         <div className="project-item-container">
-            <a href={data.link} target="_blank">
+            <a href={data.link} target="_blank" rel="noreferrer">
                 <h2 className="project-title">
                     {data.project} {" "}
                     <External className="funnel" />
