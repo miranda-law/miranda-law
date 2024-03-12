@@ -3,6 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import ProjectItem from "../components/ProjectItem";
 import projectData from '../data/projects/project-list.json';
+import allImages from "../data/projects/images/allImages";
 
 class Projects extends React.Component {
     constructor() {
@@ -14,7 +15,11 @@ class Projects extends React.Component {
     render() {
         const projectItems = this.state.projects.map((item, i) => 
             <Row key={`project-row${i}`}>
-                <ProjectItem dataKey={`project${i}`} item={item} />
+                <ProjectItem 
+                    dataKey={`project${i}`} 
+                    item={item} 
+                    imgLink={allImages[item.imgLink]} 
+                />
             </Row>
         )
         return(
