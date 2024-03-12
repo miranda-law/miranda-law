@@ -10,7 +10,7 @@ import webtoonData from '../data/readings/webtoonData';
 import manhuaData from '../data/readings/manhuaData';
 import animeData from '../data/readings/animeData';
 import allTags from "../data/readings/readingListTags";
-
+import allImages from "../data/readings/images/allImages";
 
 class Reads extends React.Component {
     constructor() {
@@ -159,19 +159,24 @@ class Reads extends React.Component {
     render() {
 
         const mangaItems = this.state.mangas.map((item, i) => 
-            <MediaItem key={`manga${i}`} dataKey={`manga${i}`} item={item} />
+            <MediaItem 
+                key={`manga${i}`} 
+                dataKey={`manga${i}`} 
+                item={item} 
+                imgLink={allImages[item.imgLink]} 
+            />
         );
         const manhwaItems = this.state.manhwas.map((item, i) => 
-            <MediaItem key={`manhwa${i}`} dataKey={`manhwa${i}`} item={item} />
+            <MediaItem key={`manhwa${i}`} dataKey={`manhwa${i}`} item={item} imgLink={allImages[item.imgLink]} />
         );
         const webtoonItems = this.state.webtoons.map((item, i) => 
-            <MediaItem key={`webtoon${i}`} dataKey={`webtoon${i}`} item={item} />
+            <MediaItem key={`webtoon${i}`} dataKey={`webtoon${i}`} item={item} imgLink={allImages[item.imgLink]} />
         );
         const manhuaItems = this.state.manhuas.map((item, i) => 
-            <MediaItem key={`manhua${i}`} dataKey={`manhua${i}`} item={item} />
+            <MediaItem key={`manhua${i}`} dataKey={`manhua${i}`} item={item} imgLink={allImages[item.imgLink]} />
         );
         const animeItems = this.state.animes.map((item, i) => 
-            <MediaItem key={`anime${i}`} dataKey={`anime${i}`} item={item} />
+            <MediaItem key={`anime${i}`} dataKey={`anime${i}`} item={item} imgLink={allImages[item.imgLink]} />
         );
 
         return (

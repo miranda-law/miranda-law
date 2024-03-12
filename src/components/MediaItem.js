@@ -5,7 +5,6 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import ListGroup from 'react-bootstrap/ListGroup';
 import { useRef, useEffect, useState } from "react";
-import allImages from "../data/readings/images/allImages";
 import {ReactComponent as External} from '../assets/external.svg';
 import './MediaItem.css';
 
@@ -44,7 +43,7 @@ function MediaItem(props) {
         overflowX: "auto"
     }
     const modalStyleBg = {
-        background: `linear-gradient(rgba(0,0,0, 0.7), rgba(0,0,0, 0.7)), url(${allImages[data.imgLink]})`,
+        background: `linear-gradient(rgba(0,0,0, 0.7), rgba(0,0,0, 0.7)), url(${props.imgLink})`,
         backgroundSize: "cover",
         backgroundPosition: "center"
     }
@@ -82,7 +81,7 @@ function MediaItem(props) {
                 {/* Card image */}
                 <Card.Img 
                     variant="top" 
-                    src={allImages[data.imgLink]} 
+                    src={props.imgLink} 
                     style={imgStyle} 
                 />
                 {/* Card title */}
