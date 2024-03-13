@@ -49,9 +49,25 @@ span {
     color: #f79d4b;
     border: 1px solid #f79d4b;
 }
+.adventure {
+    color: #d4e09b;
+    border: 1px solid #d4e09b;
+}
+.agegap {
+    color: #9a8c98;
+    border: 1px solid #9a8c98;
+}
+.apocalypse {
+    color: #6b705c;
+    border: 1px solid #6b705c;
+}
 .bl {
     color: #9de2f9;
     border: 1px solid #9de2f9;
+}
+.bodyswap {
+    color: #98f5e1;
+    border: 1px solid #98f5e1;
 }
 .comedy {
     color: #ffca18;
@@ -61,27 +77,56 @@ span {
     color: #c1b695;
     border: 1px solid #c1b695;
 }
+.entertainmentindustry { 
+    color: #136f63;
+    border: 1px solid #136f63;
+}
 .fantasy {
     color: #ac94df;
     border: 1px solid #ac94df;
+}
+.gaming { 
+    color: #0d47a1;
+    border: 1px solid #0d47a1;
+}
+.gangster { 
+    color: #99582a;
+    border: 1px solid #99582a;
 }
 .genderbender{
     background: linear-gradient(to right, #fd4646, #6183ea);
     -webkit-background-clip: text;
             background-clip: text;
     -webkit-text-fill-color: transparent;
-    border: 1px solid violet;
+    border: 1px solid #6a4c93;
+}
+.harem {
+    color: #ffcfd2;
+    border: 1px solid #ffcfd2;
 }
 .historical {
     color: #b97a56;
     border: 1px solid #b97a56;
 }
+.horror {
+    color: white;
+    border: 1px solid #495057;
+}
+.isekai {
+    color: #669bbc;
+    border: 1px solid #669bbc;
+}
 .mature {
     color: #ec1c24;
     border: 1px solid #ec1c24;
 }
+.modern {
+    color: #fdf0d5;
+    border: 1px solid #fdf0d5;
+}
 .music {
-
+    color: #f5ebe0;
+    border: 1px solid #f5ebe0;
 }
 .mystery {
     color: #c5c5c5;
@@ -127,7 +172,15 @@ span {
     color: #fdeca6;
     border: 1px solid #fdeca6;
 }
+.thriller {
+    color: #ea7317;
+    border: 1px solid #ea7317;
+}
 .villainess {
     color: #B026FF  ;
     border: 1px solid #B026FF  ;
+}
+.yandere {
+    color: #780000;
+    border: 1px solid #780000;
 }
