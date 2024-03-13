@@ -209,6 +209,7 @@ function MediaItem(props) {
                                         className="enLinkDisabled" 
                                         href={data.officialEn}
                                         target="_blank"
+                                        rel="noreferrer"
                                         onClick={(event) => event.preventDefault()}
                                     >
                                         {"Official English "}
@@ -219,6 +220,7 @@ function MediaItem(props) {
                                     className="enLink" 
                                     href={data.officialEn}
                                     target="_blank"
+                                    rel="noreferrer"
                                 >
                                     {"Official English "}
                                     <External />
