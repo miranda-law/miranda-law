@@ -167,16 +167,36 @@ class Reads extends React.Component {
             />
         );
         const manhwaItems = this.state.manhwas.map((item, i) => 
-            <MediaItem key={`manhwa${i}`} dataKey={`manhwa${i}`} item={item} imgLink={allImages[item.imgLink]} />
+            <MediaItem 
+                key={`manhwa${i}`} 
+                dataKey={`manhwa${i}`} 
+                item={item} 
+                imgLink={allImages[item.imgLink]} 
+            />
         );
         const webtoonItems = this.state.webtoons.map((item, i) => 
-            <MediaItem key={`webtoon${i}`} dataKey={`webtoon${i}`} item={item} imgLink={allImages[item.imgLink]} />
+            <MediaItem 
+                key={`webtoon${i}`} 
+                dataKey={`webtoon${i}`} 
+                item={item} 
+                imgLink={allImages[item.imgLink]} 
+            />
         );
         const manhuaItems = this.state.manhuas.map((item, i) => 
-            <MediaItem key={`manhua${i}`} dataKey={`manhua${i}`} item={item} imgLink={allImages[item.imgLink]} />
+            <MediaItem 
+                key={`manhua${i}`} 
+                dataKey={`manhua${i}`} 
+                item={item} 
+                imgLink={allImages[item.imgLink]} 
+            />
         );
         const animeItems = this.state.animes.map((item, i) => 
-            <MediaItem key={`anime${i}`} dataKey={`anime${i}`} item={item} imgLink={allImages[item.imgLink]} />
+            <MediaItem 
+                key={`anime${i}`} 
+                dataKey={`anime${i}`} 
+                item={item} 
+                imgLink={allImages[item.imgLink]} 
+            />
         );
 
         return (
