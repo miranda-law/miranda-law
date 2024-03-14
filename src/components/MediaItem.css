@@ -124,6 +124,14 @@ span {
     color: #fdf0d5;
     border: 1px solid #fdf0d5;
 }
+.movie {
+    color: #d8e2dc;
+    border: 1px solid #d8e2dc;
+}
+.murim {
+    color: #c75146;
+    border: 1px solid #c75146;
+}
 .music {
     color: #f5ebe0;
     border: 1px solid #f5ebe0;
@@ -136,6 +144,10 @@ span {
     color: #4169E1;
     border: 1px solid #4169E1;
 }
+.office {
+    color: #596475;
+    border: 1px solid #596475;
+}
 .obsessive {
     color: #666666;
     border: 1px solid #666666;
@@ -145,6 +157,10 @@ span {
     border: 1px solid #fb76a3;
 }
 .reincarnation {
+    color: #99ea4f;
+    border: 1px solid #99ea4f;
+}
+.regression {
     color: #99ea4f;
     border: 1px solid #99ea4f;
 }
@@ -160,6 +176,13 @@ span {
     color: #9ecfab;
     border: 1px solid #9ecfab;
 }
+.sci-fi{
+    background: linear-gradient(to right, #7c65a9, #96d4ca);
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border: 1px solid #6a4c93;
+}
 .shoujo {
     color: #ffaec8;
     border: 1px solid #ffaec8;
@@ -172,15 +195,64 @@ span {
     color: #fdeca6;
     border: 1px solid #fdeca6;
 }
+.slowburn{
+    background: linear-gradient(to right, #f5e6ad, #f13c77);
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border: 1px solid #f7ba2c;
+}
+.sports {
+    color: #53d8fb;
+    border: 1px solid #53d8fb;
+}
+.supernatural{
+    background: linear-gradient(to right, #9bafd9, #07f49e);
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border: 1px solid #56ab91;
+}
+.superpowers {
+    color: #dbd56e;
+    border: 1px solid #dbd56e;
+}
 .thriller {
     color: #ea7317;
     border: 1px solid #ea7317;
+}
+.timetravel {
+    color: #77a6b6;
+    border: 1px solid #77a6b6;
+}
+.tragedy {
+    color: #d3f3f1;
+    border: 1px solid #d3f3f1;
+}
+.vampire {
+    color: #f1515e;
+    border: 1px solid #9999a1;
 }
 .villainess {
     color: #B026FF  ;
     border: 1px solid #B026FF  ;
 }
+.wuxia {
+    color: #936639  ;
+    border: 1px solid #936639  ;
+}
+.xianxia {
+    background: linear-gradient(to right, #c9def4, #b8a4c9);
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border: 1px solid #c9def4;
+}
 .yandere {
     color: #780000;
     border: 1px solid #780000;
+}
+.yokai {
+    color: #dfbe99;
+    border: 1px solid #dfbe99;
 }
