@@ -1,0 +1,38 @@
+.home-container {
+    height: 90vh;
+}
+.left-container,
+.right-container{
+    height: 100%;
+    padding: 2rem 5rem;
+}
+.left-container {
+    width: 40%;
+    position: fixed;
+    animation-name: left-to-right;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+}
+.right-container {
+    width: 60%;
+    position: relative;
+    float: right;
+    animation-name: right-to-left;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+}
+.home-name {
+    border-bottom: 3px solid white;
+}
+
+
+/* animations */
+@keyframes left-to-right {
+    from {left: -100%;}
+    to{left:0;}
+}
+
+@keyframes right-to-left {
+    from {right: -100%;}
+    to{right:0;}
+}
