@@ -1,7 +1,6 @@
 import React from "react";
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
-import './Reads.css';
 import MediaItem from "../components/MediaItem";
 import FormComponent from "../components/FormComponent";
 import mangaData from '../data/readings/mangaData';
