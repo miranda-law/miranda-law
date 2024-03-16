@@ -9,7 +9,8 @@ function ProjectItem(props) {
         <div className="project-item-container">
             <div className="img-container" style={{float:"left"}}>
                 <img 
-                    src={props.imgLink} 
+                    src={props.imgLink}
+                    alt={data.project} 
                     style={{
                         width:"15rem", 
                         height:"10rem", 
