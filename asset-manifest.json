@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/miranda-law/static/css/main.bac0dc8f.css",
-    "main.js": "/miranda-law/static/js/main.84f4e777.js",
+    "main.css": "/miranda-law/static/css/main.cfd135a3.css",
+    "main.js": "/miranda-law/static/js/main.7d588c6b.js",
     "static/js/453.815a8f22.chunk.js": "/miranda-law/static/js/453.815a8f22.chunk.js",
     "static/media/nisekoi.jpg": "/miranda-law/static/media/nisekoi.d4e4941b92358f31925b.jpg",
     "static/media/dotingprince.png": "/miranda-law/static/media/dotingprince.bf8898caea95c696efe6.png",
@@ -116,12 +116,12 @@
     "static/media/book.svg": "/miranda-law/static/media/book.be62509f53e202733f35746b98c9c589.svg",
     "static/media/home.svg": "/miranda-law/static/media/home.3f6b5dde843a9bfde4276da1458f5755.svg",
     "static/media/external.svg": "/miranda-law/static/media/external.f512b266419b376a8a9a1ee74bb2c8d8.svg",
-    "main.bac0dc8f.css.map": "/miranda-law/static/css/main.bac0dc8f.css.map",
-    "main.84f4e777.js.map": "/miranda-law/static/js/main.84f4e777.js.map",
+    "main.cfd135a3.css.map": "/miranda-law/static/css/main.cfd135a3.css.map",
+    "main.7d588c6b.js.map": "/miranda-law/static/js/main.7d588c6b.js.map",
     "453.815a8f22.chunk.js.map": "/miranda-law/static/js/453.815a8f22.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bac0dc8f.css",
-    "static/js/main.84f4e777.js"
+    "static/css/main.cfd135a3.css",
+    "static/js/main.7d588c6b.js"
   ]
 }
